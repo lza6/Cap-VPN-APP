@@ -1,0 +1,16 @@
++0000 2026-10-28 21:30:48 [31mERROR[0m [[38;5;211m2316409027[0m 5.0s] connection: open connection to www.cloudflare.com:443 using outbound/vless[n34511]: dial tcp 162.55.242.208:2053: i/o timeout
++0000 2026-10-28 21:30:48 [31mERROR[0m [[38;5;40m2347328024[0m 5.0s] connection: open connection to www.cloudflare.com:443 using outbound/vless[n34514]: dial tcp 74.208.55.79:2053: i/o timeout
++0000 2026-10-28 21:30:51 [31mERROR[0m [[38;5;228m672666883[0m 5.0s] connection: open connection to www.cloudflare.com:443 using outbound/vless[n34519]: dial tcp 46.250.240.80:2053: i/o timeout
++0000 2026-10-28 21:30:54 [31mERROR[0m [[38;5;85m2182791493[0m 10.51s] connection: connection download closed: remote error: dial tcp4 104.16.123.96:443: i/o timeout
++0000 2026-10-28 21:30:54 [31mERROR[0m [[38;5;86m265053841[0m 10.48s] connection: connection download closed: remote error: dial tcp4 104.16.123.96:443: i/o timeout
++0000 2026-10-28 21:30:58 [31mERROR[0m [[38;5;87m451891783[0m 15.0s] connection: open connection to www.cloudflare.com:443 using outbound/hysteria2[n34513]: context deadline exceeded
++0000 2026-10-28 21:30:59 [31mERROR[0m [[38;5;226m2537210066[0m 5.0s] connection: open connection to www.cloudflare.com:443 using outbound/vless[n34536]: dial tcp 46.250.250.149:2053: i/o timeout
++0000 2026-10-28 21:31:00 [31mERROR[0m [[38;5;120m2840661359[0m 15.0s] connection: open connection to www.cloudflare.com:443 using outbound/hysteria2[n34518]: context deadline exceeded
++0000 2026-10-28 21:31:00 [31mERROR[0m [[38;5;87m1518497351[0m 5.0s] connection: open connection to www.cloudflare.com:443 using outbound/vless[n34540]: dial tcp 66.163.116.238:2053: i/o timeout
++0000 2026-10-28 21:31:02 [31mERROR[0m [[38;5;50m2601829154[0m 5.0s] connection: open connection to www.cloudflare.com:443 using outbound/vless[n34541]: dial tcp 208.69.78.142:8443: i/o timeout
++0000 2026-10-28 21:31:03 [31mERROR[0m [[38;5;187m971568428[0m 10.47s] connection: connection download closed: remote error: dial tcp4 104.16.124.96:443: i/o timeout
++0000 2026-10-28 21:31:08 [31mERROR[0m [[38;5;132m2018066292[0m 15.0s] connection: open connection to www.cloudflare.com:443 using outbound/hysteria2[n34532]: context deadline exceeded
++0000 2026-10-28 21:31:09 [31mERROR[0m [[38;5;171m398934683[0m 15.0s] connection: open connection to www.cloudflare.com:443 using outbound/hysteria2[n34535]: context deadline exceeded
++0000 2026-10-28 21:31:10 [31mERROR[0m [[38;5;222m1171345614[0m 15.0s] connection: open connection to www.cloudflare.com:443 using outbound/hysteria2[n34539]: context deadline exceeded
++0000 2026-10-28 21:31:14 [31mERROR[0m [[38;5;100m1033589844[0m 12.0s] connection: open connection to www.cloudflare.com:443 using outbound/hysteria2[n34547]: context canceled
++0000 2026-10-28 21:31:14 [31mERROR[0m [[38;5;78m4049489726[0m 12.38s] connection: open connection to www.cloudflare.com:443 using outbound/hysteria2[n34546]: context canceled

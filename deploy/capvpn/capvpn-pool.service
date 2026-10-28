@@ -1,0 +1,21 @@
+[Unit]
+Description=CapVPN node pool (hysteria2/vless -> per-node socks5 for new-api proxy pool)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/capvpn
+Environment=MIHOMO_BIN=/opt/capvpn/mihomo
+Environment=CP_LISTEN_HOST=172.18.0.1
+Environment=CP_SOCKS_BASE=42000
+Environment=CP_OUT=/opt/new-api/data/capvpn_proxies.txt
+# 先起 mihomo（生成配置 + 常驻），再前台跑进程；拨测与清单刷新走 capvpn-pool-test.timer
+ExecStartPre=/usr/bin/python3 /opt/capvpn/deploy_pool.py --gen-config
+ExecStart=/opt/capvpn/mihomo -d /opt/capvpn/run -f /opt/capvpn/run/config.yaml
+Restart=always
+RestartSec=10
+LimitNOFILE=65535
+
+[Install]
+WantedBy=multi-user.target

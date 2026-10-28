@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cap VPN 节点池 · 逆向 Demo</title>
+<style>
+  :root{--bg:#0b0f14;--panel:#121821;--line:#1f2937;--txt:#e6edf3;--dim:#8b98a6;--acc:#3ddc97;--warn:#f5a524;--bad:#f2555a}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--txt);font:14px/1.5 "Segoe UI",system-ui,sans-serif}
+  header{padding:18px 22px;border-bottom:1px solid var(--line);display:flex;gap:18px;align-items:center;flex-wrap:wrap}
+  h1{margin:0;font-size:17px;letter-spacing:.3px}
+  .tag{font-size:12px;color:var(--dim);border:1px solid var(--line);border-radius:999px;padding:2px 9px}
+  main{padding:20px 22px;max-width:1400px;margin:0 auto}
+  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin-bottom:18px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px}
+  .card .k{color:var(--dim);font-size:12px}
+  .card .v{font-size:22px;font-weight:600;margin-top:4px}
+  .row{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:14px}
+  button{background:#1b2430;color:var(--txt);border:1px solid var(--line);border-radius:8px;padding:7px 13px;cursor:pointer;font-size:13px}
+  button:hover{border-color:var(--acc);color:var(--acc)}
+  input,select{background:#0f151d;color:var(--txt);border:1px solid var(--line);border-radius:8px;padding:7px 10px;font-size:13px}
+  table{width:100%;border-collapse:collapse;background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+  th,td{padding:9px 11px;text-align:left;border-bottom:1px solid var(--line);font-size:13px;white-space:nowrap}
+  th{color:var(--dim);font-weight:500;background:#0f151d;position:sticky;top:0}
+  tr:hover td{background:#161f2b}
+  .pill{display:inline-block;padding:1px 7px;border-radius:999px;font-size:11px;border:1px solid var(--line);margin-right:4px;color:var(--dim)}
+  .pill.hysteria2{color:#7ab8ff;border-color:#25405f}
+  .pill.vless{color:#c99cff;border-color:#402a5c}
+  .pill.wireguard{color:#ffb26b;border-color:#5c3d22}
+  .ok{color:var(--acc)} .bad{color:var(--bad)} .warn{color:var(--warn)}
+  .note{background:#161b12;border:1px solid #2b3a1f;color:#c8d6a8;padding:11px 14px;border-radius:10px;font-size:13px;margin-bottom:16px}
+  .mono{font-family:ui-monospace,Consolas,monospace}
+  .copy{font-size:11px;padding:2px 8px}
+  #log{color:var(--dim);font-size:12px;margin-left:6px}
+</style>
+</head>
+<body>
+<header>
+  <h1>Cap VPN v1.36 (b38) · 节点池逆向 Demo</h1>
+  <span class="tag">com.capproject.capvpn</span>
+  <span class="tag">sing-box / hysteria2 + vless-REALITY</span>
+  <span class="tag">AES-CBC 响应解密 · JWT Bearer</span>
+  <span id="gen" class="tag">-</span>
+</header>
+<main>
+  <div class="note">
+    <b>网络提示：</b>本机出口（IT）到节点 IP 的 TCP 全部不可达，属本地链路限制；分布式探测（CA/NL/US 视角）显示
+    vless:2053 端口开放。真实握手验证需在可直连节点网络的环境执行（见 <span class="mono">docs/REVERSE_REPORT.md</span>）。
+  </div>
+
+  <div class="cards" id="cards"></div>
+
+  <div class="row">
+    <input id="q" placeholder="搜索国家 / 城市 / IP" style="min-width:240px">
+    <select id="tier"><option value="">全部等级</option><option value="free">free</option><option value="premium">premium</option></select>
+    <select id="proto"><option value="">全部协议</option><option value="hysteria2">hysteria2</option><option value="vless">vless</option><option value="wireguard">wireguard</option></select>
+    <button onclick="refresh()">重新拉取上游</button>
+    <button onclick="copyAll()">复制全部链接</button>
+    <span id="log"></span>
+  </div>
+
+  <table>
+    <thead><tr>
+      <th>#</th><th>地区</th><th>等级</th><th>国家</th><th>IP</th><th>协议</th>
+      <th>厂商健康</th><th>带宽 Mbps</th><th>CPU/RAM</th><th>操作</th>
+    </tr></thead>
+    <tbody id="rows"></tbody>
+  </table>
+</main>
+<script>
+let NODES = [], LINKS = [];
+
+function pill(p){ return `<span class="pill ${p}">${p}</span>`; }
+
+function render(){
+  const q = document.getElementById('q').value.trim().toLowerCase();
+  const tier = document.getElementById('tier').value;
+  const proto = document.getElementById('proto').value;
+  const rows = NODES.filter(n=>{
+    if (tier && n.tier !== tier) return false;
+    if (proto && !(proto in n.protocols)) return false;
+    if (!q) return true;
+    return (n.location_name+' '+n.country+' '+n.ip+' '+n.server_name).toLowerCase().includes(q);
+  });
+  document.getElementById('rows').innerHTML = rows.map((n,i)=>{
+    const protos = Object.keys(n.protocols).map(pill).join('');
+    const online = n.is_online === '1';
+    return `<tr>
+      <td>${i+1}</td>
+      <td>${n.location_name}</td>
+      <td>${n.tier}</td>
+      <td>${n.country||'-'}</td>
+      <td class="mono">${n.ip||'-'}</td>
+      <td>${protos}</td>
+      <td class="${online?'ok':'bad'}">${online?'在线':'离线'} · ${n.health_score||'-'}</td>
+      <td>${n.bandwidth_mbps||'-'}</td>
+      <td>${n.cpu_pct||'-'}/${n.ram_pct||'-'}</td>
+      <td><button class="copy" onclick="copyNode('${n.server_id}')">复制链接</button></td>
+    </tr>`;
+  }).join('') || `<tr><td colspan="10" class="bad">无匹配节点</td></tr>`;
+}
+
+function nodeLinks(id){
+  const n = NODES.find(x=>x.server_id===id) || NODES.find(x=>String(x.server_id)===String(id));
+  if (!n) return [];
+  return Object.entries(n.protocols).map(([k,v])=>v.raw);
+}
+
+function copyNode(id){
+  const links = nodeLinks(id).join('\n');
+  navigator.clipboard.writeText(links);
+  document.getElementById('log').textContent = '已复制 ' + links.split('\n').length + ' 条';
+}
+
+function copyAll(){
+  navigator.clipboard.writeText(LINKS.join('\n'));
+  document.getElementById('log').textContent = '已复制 ' + LINKS.length + ' 条订阅链接';
+}
+
+function card(k,v){ return `<div class="card"><div class="k">${k}</div><div class="v">${v}</div></div>`; }
+
+async function load(){
+  const s = await (await fetch('/api/summary')).json();
+  const b = s.bench;
+  document.getElementById('gen').textContent = '采集于 ' + s.generated_at;
+  document.getElementById('cards').innerHTML = [
+    card('地区数', s.locations),
+    card('节点条目', s.servers),
+    card('厂商标记在线', `${s.vendor_online}/${s.servers}`),
+    card('hysteria2', s.protocols.hysteria2||0),
+    card('vless REALITY', s.protocols.vless||0),
+    card('wireguard(模板)', s.protocols.wireguard||0),
+    card('本轮存活(本机)', b ? `${b.alive}/${b.total_unique_endpoints}` : '—'),
+  ].join('');
+  const d = await (await fetch('/api/nodes')).json();
+  NODES = d.nodes;
+  LINKS = (await (await fetch('/api/links')).text()).trim().split('\n').filter(Boolean);
+  render();
+}
+
+async function refresh(){
+  document.getElementById('log').textContent = '拉取中…';
+  const r = await (await fetch('/api/refresh', {method:'POST'})).json();
+  document.getElementById('log').textContent = r.ok ? `刷新完成：${r.locations} 地区 / ${r.servers} 节点` : ('失败：' + r.error);
+  await load();
+}
+
+['q','tier','proto'].forEach(id=>document.getElementById(id).addEventListener('input', render));
+load();
+</script>
+</body>
+</html>

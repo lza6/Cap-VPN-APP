@@ -1,0 +1,1700 @@
+{
+ "summary": {
+  "endpoints": 33,
+  "reachable_counts": {
+   "openai": 33,
+   "gemini": 31,
+   "anthropic": 33,
+   "claude-ai": 33,
+   "chatgpt-web": 33,
+   "netflix": 32,
+   "spotify": 33,
+   "cf-trace": 33
+  }
+ },
+ "results": [
+  {
+   "port": 34500,
+   "node_id": "1200",
+   "location": "United Kingdom A41",
+   "tier": "free",
+   "proto": "hysteria2",
+   "server": "51.89.194.151:8446",
+   "country": "UK",
+   "targets": {
+    "anthropic": {
+     "target": "anthropic",
+     "status": 405,
+     "reachable": true
+    },
+    "chatgpt-web": {
+     "target": "chatgpt-web",
+     "status": 200,
+     "reachable": true
+    },
+    "gemini": {
+     "target": "gemini",
+     "status": 403,
+     "reachable": true
+    },
+    "claude-ai": {
+     "target": "claude-ai",
+     "status": 403,
+     "reachable": true
+    },
+    "openai": {
+     "target": "openai",
+     "status": 401,
+     "reachable": true
+    },
+    "netflix": {
+     "target": "netflix",
+     "status": 301,
+     "reachable": true
+    },
+    "cf-trace": {
+     "target": "cf-trace",
+     "status": 200,
+     "reachable": true
+    },
+    "spotify": {
+     "target": "spotify",
+     "status": 200,
+     "reachable": true
+    }
+   }
+  },
+  {
+   "port": 34501,
+   "node_id": "1200",
+   "location": "United Kingdom A41",
+   "tier": "free",
+   "proto": "vless",
+   "server": "51.89.194.151:2053",
+   "country": "UK",
+   "targets": {
+    "gemini": {
+     "target": "gemini",
+     "status": 403,
+     "reachable": true
+    },
+    "anthropic": {
+     "target": "anthropic",
+     "status": 405,
+     "reachable": true
+    },
+    "openai": {
+     "target": "openai",
+     "status": 401,
+     "reachable": true
+    },
+    "claude-ai": {
+     "target": "claude-ai",
+     "status": 403,
+     "reachable": true
+    },
+    "chatgpt-web": {
+     "target": "chatgpt-web",
+     "status": 200,
+     "reachable": true
+    },
+    "cf-trace": {
+     "target": "cf-trace",
+     "status": 200,
+     "reachable": true
+    },
+    "netflix": {
+     "target": "netflix",
+     "status": 301,
+     "reachable": true
+    },
+    "spotify": {
+     "target": "spotify",
+     "status": 200,
+     "reachable": true
+    }
+   }
+  },
+  {
+   "port": 34502,
+   "node_id": "1116",
+   "location": "France",
+   "tier": "free",
+   "proto": "hysteria2",
+   "server": "51.77.217.70:8446",
+   "country": "FR",
+   "targets": {
+    "anthropic": {
+     "target": "anthropic",
+     "status": 405,
+     "reachable": true
+    },
+    "gemini": {
+     "target": "gemini",
+     "status": 403,
+     "reachable": true
+    },
+    "claude-ai": {
+     "target": "claude-ai",
+     "status": 403,
+     "reachable": true
+    },
+    "openai": {
+     "target": "openai",
+     "status": 401,
+     "reachable": true
+    },
+    "chatgpt-web": {
+     "target": "chatgpt-web",
+     "status": 200,
+     "reachable": true
+    },
+    "cf-trace": {
+     "target": "cf-trace",
+     "status": 200,
+     "reachable": true
+    },
+    "spotify": {
+     "target": "spotify",
+     "status": 200,
+     "reachable": true
+    },
+    "netflix": {
+     "target": "netflix",
+     "status": 301,
+     "reachable": true
+    }
+   }
+  },
+  {
+   "port": 34503,
+   "node_id": "1116",
+   "location": "France",
+   "tier": "free",
+   "proto": "vless",
+   "server": "51.77.217.70:2053",
+   "country": "FR",
+   "targets": {
+    "gemini": {
+     "target": "gemini",
+     "status": 403,
+     "reachable": true
+    },
+    "openai": {
+     "target": "openai",
+     "status": 401,
+     "reachable": true
+    },
+    "anthropic": {
+     "target": "anthropic",
+     "status": 405,
+     "reachable": true
+    },
+    "claude-ai": {
+     "target": "claude-ai",
+     "status": 403,
+     "reachable": true
+    },
+    "chatgpt-web": {
+     "target": "chatgpt-web",
+     "status": 200,
+     "reachable": true
+    },
+    "netflix": {
+     "target": "netflix",
+     "status": 301,
+     "reachable": true
+    },
+    "cf-trace": {
+     "target": "cf-trace",
+     "status": 200,
+     "reachable": true
+    },
+    "spotify": {
+     "target": "spotify",
+     "status": 200,
+     "reachable": true
+    }
+   }
+  },
+  {
+   "port": 34504,
+   "node_id": "1215",
+   "location": "Netherlands",
+   "tier": "free",
+   "proto": "hysteria2",
+   "server": "51.15.16.68:8447",
+   "country": "NL",
+   "targets": {
+    "gemini": {
+     "target": "gemini",
+     "status": 403,
+     "reachable": true
+    },
+    "anthropic": {
+     "target": "anthropic",
+     "status": 405,
+     "reachable": true
+    },
+    "openai": {
+     "target": "openai",
+     "status": 401,
+     "reachable": true
+    },
+    "claude-ai": {
+     "target": "claude-ai",
+     "status": 403,
+     "reachable": true
+    },
+    "chatgpt-web": {
+     "target": "chatgpt-web",
+     "status": 200,
+     "reachable": true
+    },
+    "cf-trace": {
+     "target": "cf-trace",
+     "status": 200,
+     "reachable": true
+    },
+    "netflix": {
+     "target": "netflix",
+     "status": 301,
+     "reachable": true
+    },
+    "spotify": {
+     "target": "spotify",
+     "status": 200,
+     "reachable": true
+    }
+   }
+  },
+  {
+   "port": 34505,
+   "node_id": "1215",
+   "location": "Netherlands",
+   "tier": "free",
+   "proto": "vless",
+   "server": "51.15.16.68:2053",
+   "country": "NL",
+   "targets": {
+    "gemini": {
+     "target": "gemini",
+     "status": 403,
+     "reachable": true
+    },
+    "openai": {
+     "target": "openai",
+     "status": 401,
+     "reachable": true
+    },
+    "anthropic": {
+     "target": "anthropic",
+     "status": 405,
+     "reachable": true
+    },
+    "claude-ai": {
+     "target": "claude-ai",
+     "status": 403,
+     "reachable": true
+    },
+    "chatgpt-web": {
+     "target": "chatgpt-web",
+     "status": 200,
+     "reachable": true
+    },
+    "netflix": {
+     "target": "netflix",
+     "status": 301,
+     "reachable": true
+    },
+    "cf-trace": {
+     "target": "cf-trace",
+     "status": 200,
+     "reachable": true
+    },
+    "spotify": {
+     "target": "spotify",
+     "status": 200,
+     "reachable": true
+    }
+   }
+  },
+  {
+   "port": 34506,
+   "node_id": "1122",
+   "location": "Canada",
+   "tier": "free",
+   "proto": "hysteria2",
+   "server": "66.70.179.198:8447",
+   "country": "CA",
+   "targets": {
+    "openai": {
+     "target": "openai",
+     "status": 401,
+     "reachable": true
+    },
+    "gemini": {
+     "target": "gemini",
+     "status": 403,
+     "reachable": true
+    },
+    "anthropic": {
+     "target": "anthropic",
+     "status": 405,
+     "reachable": true
+    },
+    "claude-ai": {
+     "target": "claude-ai",
+     "status": 403,
+     "reachable": true
+    },
+    "chatgpt-web": {
+     "target": "chatgpt-web",
+     "status": 200,
+     "reachable": true
+    },
+    "cf-trace": {
+     "target": "cf-trace",
+     "status": 200,
+     "reachable": true
+    },
+    "netflix": {
+     "target": "netflix",
+     "status": 301,
+     "reachable": true
+    },
+    "spotify": {
+     "target": "spotify",
+     "status": 200,
+     "reachable": true
+    }
+   }
+  },
+  {
+   "port": 34507,
+   "node_id": "1122",
+   "location": "Canada",
+   "tier": "free",
+   "proto": "vless",
+   "server": "66.70.179.198:2053",
+   "country": "CA",
+   "targets": {
+    "openai": {
+     "target": "openai",
+     "status": 401,
+     "reachable": true
+    },
+    "gemini": {
+     "target": "gemini",
+     "status": 403,
+     "reachable": true
+    },
+    "anthropic": {
+     "target": "anthropic",
+     "status": 405,
+     "reachable": true
+    },
+    "claude-ai": {
+     "target": "claude-ai",
+     "status": 403,
+     "reachable": true
+    },
+    "chatgpt-web": {
+     "target": "chatgpt-web",
+     "status": 200,
+     "reachable": true
+    },
+    "cf-trace": {
+     "target": "cf-trace",
+     "status": 200,
+     "reachable": true
+    },
+    "netflix": {
+     "target": "netflix",
+     "status": 301,
+     "reachable": true
+    },
+    "spotify": {
+     "target": "spotify",
+     "status": 200,
+     "reachable": true
+    }
+   }
+  },
+  {
+   "port": 34508,
+   "node_id": "1158",
+   "location": "Finland A41",
+   "tier": "free",
+   "proto": "hysteria2",
+   "server": "95.216.27.15:8445",
+   "country": "FN",
+   "targets": {
+    "anthropic": {
+     "target": "anthropic",
+     "status": 405,
+     "reachable": true
+    },
+    "claude-ai": {
+     "target": "claude-ai",
+     "status": 403,
+     "reachable": true
+    },
+    "openai": {
+     "target": "openai",
+     "status": 401,
+     "reachable": true
+    },
+    "chatgpt-web": {
+     "target": "chatgpt-web",
+     "status": 200,
+     "reachable": true
+    },
+    "gemini": {
+     "target": "gemini",
+     "status": 403,
+     "reachable": true
+    },
+    "cf-trace": {
+     "target": "cf-trace",
+     "status": 200,
+     "reachable": true
+    },
+    "netflix": {
+     "target": "netflix",
+     "status": 301,
+     "reachable": true
+    },
+    "spotify": {
+     "target": "spotify",
+     "status": 200,
+     "reachable": true
+    }
+   }
+  },
+  {
+   "port": 34509,
+   "node_id": "1158",
+   "location": "Finland A41",
+   "tier": "free",
+   "proto": "vless",
+   "server": "95.216.27.15:2053",
+   "country": "FN",
+   "targets": {
+    "gemini": {
+     "target": "gemini",
+     "status": 403,
+     "reachable": true
+    },
+    "openai": {
+     "target": "openai",
+     "status": 401,
+     "reachable": true
+    },
+    "anthropic": {
+     "target": "anthropic",
+     "status": 405,
+     "reachable": true
+    },
+    "chatgpt-web": {
+     "target": "chatgpt-web",
+     "status": 200,
+     "reachable": true
+    },
+    "claude-ai": {
+     "target": "claude-ai",
+     "status": 403,
+     "reachable": true
+    },
+    "netflix": {
+     "target": "netflix",
+     "status": 301,
+     "reachable": true
+    },
+    "cf-trace": {
+     "target": "cf-trace",
+     "status": 200,
+     "reachable": true
+    },
+    "spotify": {
+     "target": "spotify",
+     "status": 200,
+     "reachable": true
+    }
+   }
+  },
+  {
+   "port": 34512,
+   "node_id": "1230",
+   "location": "United States",
+   "tier": "free",
+   "proto": "hysteria2",
+   "server": "212.227.235.66:8444",
+   "country": null,
+   "targets": {
+    "gemini": {
+     "target": "gemini",
+     "status": 403,
+     "reachable": true
+    },
+    "openai": {
+     "target": "openai",
+     "status": 401,
+     "reachable": true
+    },
+    "anthropic": {
+     "target": "anthropic",
+     "status": 405,
+     "reachable": true
+    },
+    "claude-ai": {
+     "target": "claude-ai",
+     "status": 403,
+     "reachable": true
+    },
+    "chatgpt-web": {
+     "target": "chatgpt-web",
+     "status": 200,
+     "reachable": true
+    },
+    "cf-trace": {
+     "target": "cf-trace",
+     "status": 200,
+     "reachable": true
+    },
+    "netflix": {
+     "target": "netflix",
+     "status": 301,
+     "reachable": true
+    },
+    "spotify": {
+     "target": "spotify",
+     "status": 200,
+     "reachable": true
+    }
+   }
+  },
+  {
+   "port": 34516,
+   "node_id": "1077",
+   "location": "Spain A41",
+   "tier": "free",
+   "proto": "hysteria2",
+   "server": "212.227.235.66:8447",
+   "country": "SP",
+   "targets": {
+    "gemini": {
+     "target": "gemini",
+     "status": 403,
+     "reachable": true
+    },
+    "openai": {
+     "target": "openai",
+     "status": 401,
+     "reachable": true
+    },
+    "anthropic": {
+     "target": "anthropic",
+     "status": 405,
+     "reachable": true
+    },
+    "claude-ai": {
+     "target": "claude-ai",
+     "status": 403,
+     "reachable": true
+    },
+    "chatgpt-web": {
+     "target": "chatgpt-web",
+     "status": 200,
+     "reachable": true
+    },
+    "cf-trace": {
+     "target": "cf-trace",
+     "status": 200,
+     "reachable": true
+    },
+    "netflix": {
+     "target": "netflix",
+     "status": 301,
+     "reachable": true
+    },
+    "spotify": {
+     "target": "spotify",
+     "status": 200,
+     "reachable": true
+    }
+   }
+  },
+  {
+   "port": 34517,
+   "node_id": "1077",
+   "location": "Spain A41",
+   "tier": "free",
+   "proto": "vless",
+   "server": "212.227.235.66:2053",
+   "country": "SP",
+   "targets": {
+    "openai": {
+     "target": "openai",
+     "status": 401,
+     "reachable": true
+    },
+    "anthropic": {
+     "target": "anthropic",
+     "status": 405,
+     "reachable": true
+    },
+    "gemini": {
+     "target": "gemini",
+     "status": 403,
+     "reachable": true
+    },
+    "claude-ai": {
+     "target": "claude-ai",
+     "status": 403,
+     "reachable": true
+    },
+    "chatgpt-web": {
+     "target": "chatgpt-web",
+     "status": 200,
+     "reachable": true
+    },
+    "netflix": {
+     "target": "netflix",
+     "status": 301,
+     "reachable": true
+    },
+    "cf-trace": {
+     "target": "cf-trace",
+     "status": 200,
+     "reachable": true
+    },
+    "spotify": {
+     "target": "spotify",
+     "status": 200,
+     "reachable": true
+    }
+   }
+  },
+  {
+   "port": 34520,
+   "node_id": "1179",
+   "location": "India",
+   "tier": "free",
+   "proto": "hysteria2",
+   "server": "194.61.31.126:8447",
+   "country": "IN",
+   "targets": {
+    "chatgpt-web": {
+     "target": "chatgpt-web",
+     "status": 200,
+     "reachable": true
+    },
+    "openai": {
+     "target": "openai",
+     "status": 401,
+     "reachable": true
+    },
+    "anthropic": {
+     "target": "anthropic",
+     "status": 405,
+     "reachable": true
+    },
+    "gemini": {
+     "target": "gemini",
+     "status": 403,
+     "reachable": true
+    },
+    "claude-ai": {
+     "target": "claude-ai",
+     "status": 403,
+     "reachable": true
+    },
+    "cf-trace": {
+     "target": "cf-trace",
+     "status": 200,
+     "reachable": true
+    },
+    "netflix": {
+     "target": "netflix",
+     "status": 301,
+     "reachable": true
+    },
+    "spotify": {
+     "target": "spotify",
+     "status": 200,
+     "reachable": true
+    }
+   }
+  },
+  {
+   "port": 34521,
+   "node_id": "1179",
+   "location": "India",
+   "tier": "free",
+   "proto": "vless",
+   "server": "194.61.31.126:2053",
+   "country": "IN",
+   "targets": {
+    "anthropic": {
+     "target": "anthropic",
+     "status": 405,
+     "reachable": true
+    },
+    "gemini": {
+     "target": "gemini",
+     "status": 403,
+     "reachable": true
+    },
+    "openai": {
+     "target": "openai",
+     "status": 401,
+     "reachable": true
+    },
+    "claude-ai": {
+     "target": "claude-ai",
+     "status": 403,
+     "reachable": true
+    },
+    "chatgpt-web": {
+     "target": "chatgpt-web",
+     "status": 200,
+     "reachable": true
+    },
+    "cf-trace": {
+     "target": "cf-trace",
+     "status": 200,
+     "reachable": true
+    },
+    "netflix": {
+     "target": "netflix",
+     "status": 301,
+     "reachable": true
+    },
+    "spotify": {
+     "target": "spotify",
+     "status": 200,
+     "reachable": true
+    }
+   }
+  },
+  {
+   "port": 34522,
+   "node_id": "1203",
+   "location": "United Kingdom A41",
+   "tier": "premium",
+   "proto": "hysteria2",
+   "server": "51.89.194.151:8444",
+   "country": "UK",
+   "targets": {
+    "anthropic": {
+     "target": "anthropic",
+     "status": 405,
+     "reachable": true
+    },
+    "gemini": {
+     "target": "gemini",
+     "status": 403,
+     "reachable": true
+    },
+    "openai": {
+     "target": "openai",
+     "status": 401,
+     "reachable": true
+    },
+    "claude-ai": {
+     "target": "claude-ai",
+     "status": 403,
+     "reachable": true
+    },
+    "chatgpt-web": {
+     "target": "chatgpt-web",
+     "status": 200,
+     "reachable": true
+    },
+    "cf-trace": {
+     "target": "cf-trace",
+     "status": 200,
+     "reachable": true
+    },
+    "netflix": {
+     "target": "netflix",
+     "status": 301,
+     "reachable": true
+    },
+    "spotify": {
+     "target": "spotify",
+     "status": 200,
+     "reachable": true
+    }
+   }
+  },
+  {
+   "port": 34523,
+   "node_id": "1224",
+   "location": "Singapore A42",
+   "tier": "premium",
+   "proto": "hysteria2",
+   "server": "45.132.75.213:8444",
+   "country": "SG",
+   "targets": {
+    "anthropic": {
+     "target": "anthropic",
+     "status": 405,
+     "reachable": true
+    },
+    "chatgpt-web": {
+     "target": "chatgpt-web",
+     "status": 200,
+     "reachable": true
+    },
+    "netflix": {
+     "target": "netflix",
+     "status": 301,
+     "reachable": true
+    },
+    "claude-ai": {
+     "target": "claude-ai",
+     "status": 403,
+     "reachable": true
+    },
+    "cf-trace": {
+     "target": "cf-trace",
+     "status": 200,
+     "reachable": true
+    },
+    "openai": {
+     "target": "openai",
+     "status": 401,
+     "reachable": true
+    },
+    "spotify": {
+     "target": "spotify",
+     "status": 200,
+     "reachable": true
+    },
+    "gemini": {
+     "target": "gemini",
+     "status": 0,
+     "reachable": false
+    }
+   }
+  },
+  {
+   "port": 34524,
+   "node_id": "1224",
+   "location": "Singapore A42",
+   "tier": "premium",
+   "proto": "vless",
+   "server": "45.132.75.213:2053",
+   "country": "SG",
+   "targets": {
+    "openai": {
+     "target": "openai",
+     "status": 401,
+     "reachable": true
+    },
+    "anthropic": {
+     "target": "anthropic",
+     "status": 405,
+     "reachable": true
+    },
+    "claude-ai": {
+     "target": "claude-ai",
+     "status": 403,
+     "reachable": true
+    },
+    "chatgpt-web": {
+     "target": "chatgpt-web",
+     "status": 200,
+     "reachable": true
+    },
+    "netflix": {
+     "target": "netflix",
+     "status": 301,
+     "reachable": true
+    },
+    "spotify": {
+     "target": "spotify",
+     "status": 200,
+     "reachable": true
+    },
+    "cf-trace": {
+     "target": "cf-trace",
+     "status": 200,
+     "reachable": true
+    },
+    "gemini": {
+     "target": "gemini",
+     "status": 0,
+     "reachable": false
+    }
+   }
+  },
+  {
+   "port": 34525,
+   "node_id": "1164",
+   "location": "Poland",
+   "tier": "premium",
+   "proto": "hysteria2",
+   "server": "54.37.136.194:8444",
+   "country": "PL",
+   "targets": {
+    "openai": {
+     "target": "openai",
+     "status": 401,
+     "reachable": true
+    },
+    "gemini": {
+     "target": "gemini",
+     "status": 403,
+     "reachable": true
+    },
+    "anthropic": {
+     "target": "anthropic",
+     "status": 405,
+     "reachable": true
+    },
+    "claude-ai": {
+     "target": "claude-ai",
+     "status": 403,
+     "reachable": true
+    },
+    "chatgpt-web": {
+     "target": "chatgpt-web",
+     "status": 200,
+     "reachable": true
+    },
+    "cf-trace": {
+     "target": "cf-trace",
+     "status": 200,
+     "reachable": true
+    },
+    "netflix": {
+     "target": "netflix",
+     "status": 301,
+     "reachable": true
+    },
+    "spotify": {
+     "target": "spotify",
+     "status": 200,
+     "reachable": true
+    }
+   }
+  },
+  {
+   "port": 34526,
+   "node_id": "1164",
+   "location": "Poland",
+   "tier": "premium",
+   "proto": "vless",
+   "server": "54.37.136.194:2053",
+   "country": "PL",
+   "targets": {
+    "openai": {
+     "target": "openai",
+     "status": 401,
+     "reachable": true
+    },
+    "gemini": {
+     "target": "gemini",
+     "status": 403,
+     "reachable": true
+    },
+    "anthropic": {
+     "target": "anthropic",
+     "status": 405,
+     "reachable": true
+    },
+    "claude-ai": {
+     "target": "claude-ai",
+     "status": 403,
+     "reachable": true
+    },
+    "chatgpt-web": {
+     "target": "chatgpt-web",
+     "status": 200,
+     "reachable": true
+    },
+    "cf-trace": {
+     "target": "cf-trace",
+     "status": 200,
+     "reachable": true
+    },
+    "netflix": {
+     "target": "netflix",
+     "status": 301,
+     "reachable": true
+    },
+    "spotify": {
+     "target": "spotify",
+     "status": 200,
+     "reachable": true
+    }
+   }
+  },
+  {
+   "port": 34527,
+   "node_id": "1185",
+   "location": "South Korea",
+   "tier": "premium",
+   "proto": "hysteria2",
+   "server": "151.245.106.49:8444",
+   "country": "KR",
+   "targets": {
+    "openai": {
+     "target": "openai",
+     "status": 401,
+     "reachable": true
+    },
+    "gemini": {
+     "target": "gemini",
+     "status": 403,
+     "reachable": true
+    },
+    "anthropic": {
+     "target": "anthropic",
+     "status": 405,
+     "reachable": true
+    },
+    "claude-ai": {
+     "target": "claude-ai",
+     "status": 403,
+     "reachable": true
+    },
+    "chatgpt-web": {
+     "target": "chatgpt-web",
+     "status": 200,
+     "reachable": true
+    },
+    "cf-trace": {
+     "target": "cf-trace",
+     "status": 200,
+     "reachable": true
+    },
+    "spotify": {
+     "target": "spotify",
+     "status": 200,
+     "reachable": true
+    },
+    "netflix": {
+     "target": "netflix",
+     "status": 301,
+     "reachable": true
+    }
+   }
+  },
+  {
+   "port": 34528,
+   "node_id": "1185",
+   "location": "South Korea",
+   "tier": "premium",
+   "proto": "vless",
+   "server": "151.245.106.49:2053",
+   "country": "KR",
+   "targets": {
+    "openai": {
+     "target": "openai",
+     "status": 401,
+     "reachable": true
+    },
+    "gemini": {
+     "target": "gemini",
+     "status": 403,
+     "reachable": true
+    },
+    "anthropic": {
+     "target": "anthropic",
+     "status": 405,
+     "reachable": true
+    },
+    "claude-ai": {
+     "target": "claude-ai",
+     "status": 403,
+     "reachable": true
+    },
+    "chatgpt-web": {
+     "target": "chatgpt-web",
+     "status": 200,
+     "reachable": true
+    },
+    "netflix": {
+     "target": "netflix",
+     "status": 301,
+     "reachable": true
+    },
+    "cf-trace": {
+     "target": "cf-trace",
+     "status": 200,
+     "reachable": true
+    },
+    "spotify": {
+     "target": "spotify",
+     "status": 200,
+     "reachable": true
+    }
+   }
+  },
+  {
+   "port": 34529,
+   "node_id": "873",
+   "location": "Italy",
+   "tier": "premium",
+   "proto": "hysteria2",
+   "server": "57.131.38.163:8444",
+   "country": "IT",
+   "targets": {
+    "gemini": {
+     "target": "gemini",
+     "status": 403,
+     "reachable": true
+    },
+    "openai": {
+     "target": "openai",
+     "status": 401,
+     "reachable": true
+    },
+    "anthropic": {
+     "target": "anthropic",
+     "status": 405,
+     "reachable": true
+    },
+    "claude-ai": {
+     "target": "claude-ai",
+     "status": 403,
+     "reachable": true
+    },
+    "chatgpt-web": {
+     "target": "chatgpt-web",
+     "status": 200,
+     "reachable": true
+    },
+    "cf-trace": {
+     "target": "cf-trace",
+     "status": 200,
+     "reachable": true
+    },
+    "netflix": {
+     "target": "netflix",
+     "status": 301,
+     "reachable": true
+    },
+    "spotify": {
+     "target": "spotify",
+     "status": 200,
+     "reachable": true
+    }
+   }
+  },
+  {
+   "port": 34530,
+   "node_id": "873",
+   "location": "Italy",
+   "tier": "premium",
+   "proto": "vless",
+   "server": "57.131.38.163:2053",
+   "country": "IT",
+   "targets": {
+    "gemini": {
+     "target": "gemini",
+     "status": 403,
+     "reachable": true
+    },
+    "anthropic": {
+     "target": "anthropic",
+     "status": 405,
+     "reachable": true
+    },
+    "openai": {
+     "target": "openai",
+     "status": 401,
+     "reachable": true
+    },
+    "claude-ai": {
+     "target": "claude-ai",
+     "status": 403,
+     "reachable": true
+    },
+    "chatgpt-web": {
+     "target": "chatgpt-web",
+     "status": 200,
+     "reachable": true
+    },
+    "cf-trace": {
+     "target": "cf-trace",
+     "status": 200,
+     "reachable": true
+    },
+    "netflix": {
+     "target": "netflix",
+     "status": 301,
+     "reachable": true
+    },
+    "spotify": {
+     "target": "spotify",
+     "status": 200,
+     "reachable": true
+    }
+   }
+  },
+  {
+   "port": 34533,
+   "node_id": "1125",
+   "location": "Canada 1Gbps",
+   "tier": "premium",
+   "proto": "hysteria2",
+   "server": "66.70.179.198:8444",
+   "country": "CA",
+   "targets": {
+    "openai": {
+     "target": "openai",
+     "status": 401,
+     "reachable": true
+    },
+    "anthropic": {
+     "target": "anthropic",
+     "status": 405,
+     "reachable": true
+    },
+    "gemini": {
+     "target": "gemini",
+     "status": 403,
+     "reachable": true
+    },
+    "claude-ai": {
+     "target": "claude-ai",
+     "status": 403,
+     "reachable": true
+    },
+    "chatgpt-web": {
+     "target": "chatgpt-web",
+     "status": 200,
+     "reachable": true
+    },
+    "cf-trace": {
+     "target": "cf-trace",
+     "status": 200,
+     "reachable": true
+    },
+    "netflix": {
+     "target": "netflix",
+     "status": 301,
+     "reachable": true
+    },
+    "spotify": {
+     "target": "spotify",
+     "status": 200,
+     "reachable": true
+    }
+   }
+  },
+  {
+   "port": 34534,
+   "node_id": "1119",
+   "location": "France",
+   "tier": "premium",
+   "proto": "hysteria2",
+   "server": "51.77.217.70:8444",
+   "country": "FR",
+   "targets": {
+    "anthropic": {
+     "target": "anthropic",
+     "status": 405,
+     "reachable": true
+    },
+    "gemini": {
+     "target": "gemini",
+     "status": 403,
+     "reachable": true
+    },
+    "claude-ai": {
+     "target": "claude-ai",
+     "status": 403,
+     "reachable": true
+    },
+    "openai": {
+     "target": "openai",
+     "status": 401,
+     "reachable": true
+    },
+    "chatgpt-web": {
+     "target": "chatgpt-web",
+     "status": 200,
+     "reachable": true
+    },
+    "netflix": {
+     "target": "netflix",
+     "status": 301,
+     "reachable": true
+    },
+    "cf-trace": {
+     "target": "cf-trace",
+     "status": 200,
+     "reachable": true
+    },
+    "spotify": {
+     "target": "spotify",
+     "status": 200,
+     "reachable": true
+    }
+   }
+  },
+  {
+   "port": 34538,
+   "node_id": "1212",
+   "location": "Netherlands",
+   "tier": "premium",
+   "proto": "hysteria2",
+   "server": "51.15.16.68:8444",
+   "country": "NL",
+   "targets": {
+    "anthropic": {
+     "target": "anthropic",
+     "status": 405,
+     "reachable": true
+    },
+    "gemini": {
+     "target": "gemini",
+     "status": 403,
+     "reachable": true
+    },
+    "claude-ai": {
+     "target": "claude-ai",
+     "status": 403,
+     "reachable": true
+    },
+    "openai": {
+     "target": "openai",
+     "status": 401,
+     "reachable": true
+    },
+    "netflix": {
+     "target": "netflix",
+     "status": 0,
+     "reachable": false
+    },
+    "chatgpt-web": {
+     "target": "chatgpt-web",
+     "status": 200,
+     "reachable": true
+    },
+    "cf-trace": {
+     "target": "cf-trace",
+     "status": 200,
+     "reachable": true
+    },
+    "spotify": {
+     "target": "spotify",
+     "status": 200,
+     "reachable": true
+    }
+   }
+  },
+  {
+   "port": 34542,
+   "node_id": "1221",
+   "location": "Switzerland",
+   "tier": "premium",
+   "proto": "hysteria2",
+   "server": "208.69.78.217:8444",
+   "country": "CH",
+   "targets": {
+    "anthropic": {
+     "target": "anthropic",
+     "status": 405,
+     "reachable": true
+    },
+    "claude-ai": {
+     "target": "claude-ai",
+     "status": 403,
+     "reachable": true
+    },
+    "gemini": {
+     "target": "gemini",
+     "status": 403,
+     "reachable": true
+    },
+    "openai": {
+     "target": "openai",
+     "status": 401,
+     "reachable": true
+    },
+    "chatgpt-web": {
+     "target": "chatgpt-web",
+     "status": 200,
+     "reachable": true
+    },
+    "cf-trace": {
+     "target": "cf-trace",
+     "status": 200,
+     "reachable": true
+    },
+    "netflix": {
+     "target": "netflix",
+     "status": 301,
+     "reachable": true
+    },
+    "spotify": {
+     "target": "spotify",
+     "status": 200,
+     "reachable": true
+    }
+   }
+  },
+  {
+   "port": 34543,
+   "node_id": "1221",
+   "location": "Switzerland",
+   "tier": "premium",
+   "proto": "vless",
+   "server": "208.69.78.217:2053",
+   "country": "CH",
+   "targets": {
+    "openai": {
+     "target": "openai",
+     "status": 401,
+     "reachable": true
+    },
+    "gemini": {
+     "target": "gemini",
+     "status": 403,
+     "reachable": true
+    },
+    "anthropic": {
+     "target": "anthropic",
+     "status": 405,
+     "reachable": true
+    },
+    "claude-ai": {
+     "target": "claude-ai",
+     "status": 403,
+     "reachable": true
+    },
+    "chatgpt-web": {
+     "target": "chatgpt-web",
+     "status": 200,
+     "reachable": true
+    },
+    "cf-trace": {
+     "target": "cf-trace",
+     "status": 200,
+     "reachable": true
+    },
+    "netflix": {
+     "target": "netflix",
+     "status": 301,
+     "reachable": true
+    },
+    "spotify": {
+     "target": "spotify",
+     "status": 200,
+     "reachable": true
+    }
+   }
+  },
+  {
+   "port": 34544,
+   "node_id": "1113",
+   "location": "Türkiye",
+   "tier": "premium",
+   "proto": "hysteria2",
+   "server": "151.241.226.201:8444",
+   "country": "TR",
+   "targets": {
+    "gemini": {
+     "target": "gemini",
+     "status": 403,
+     "reachable": true
+    },
+    "anthropic": {
+     "target": "anthropic",
+     "status": 405,
+     "reachable": true
+    },
+    "openai": {
+     "target": "openai",
+     "status": 401,
+     "reachable": true
+    },
+    "claude-ai": {
+     "target": "claude-ai",
+     "status": 403,
+     "reachable": true
+    },
+    "chatgpt-web": {
+     "target": "chatgpt-web",
+     "status": 200,
+     "reachable": true
+    },
+    "cf-trace": {
+     "target": "cf-trace",
+     "status": 200,
+     "reachable": true
+    },
+    "netflix": {
+     "target": "netflix",
+     "status": 301,
+     "reachable": true
+    },
+    "spotify": {
+     "target": "spotify",
+     "status": 200,
+     "reachable": true
+    }
+   }
+  },
+  {
+   "port": 34545,
+   "node_id": "1113",
+   "location": "Türkiye",
+   "tier": "premium",
+   "proto": "vless",
+   "server": "151.241.226.201:2053",
+   "country": "TR",
+   "targets": {
+    "openai": {
+     "target": "openai",
+     "status": 401,
+     "reachable": true
+    },
+    "anthropic": {
+     "target": "anthropic",
+     "status": 405,
+     "reachable": true
+    },
+    "gemini": {
+     "target": "gemini",
+     "status": 403,
+     "reachable": true
+    },
+    "claude-ai": {
+     "target": "claude-ai",
+     "status": 403,
+     "reachable": true
+    },
+    "chatgpt-web": {
+     "target": "chatgpt-web",
+     "status": 200,
+     "reachable": true
+    },
+    "cf-trace": {
+     "target": "cf-trace",
+     "status": 200,
+     "reachable": true
+    },
+    "netflix": {
+     "target": "netflix",
+     "status": 301,
+     "reachable": true
+    },
+    "spotify": {
+     "target": "spotify",
+     "status": 200,
+     "reachable": true
+    }
+   }
+  },
+  {
+   "port": 34548,
+   "node_id": "1182",
+   "location": "India",
+   "tier": "premium",
+   "proto": "hysteria2",
+   "server": "194.61.31.126:8444",
+   "country": "IN",
+   "targets": {
+    "anthropic": {
+     "target": "anthropic",
+     "status": 405,
+     "reachable": true
+    },
+    "openai": {
+     "target": "openai",
+     "status": 401,
+     "reachable": true
+    },
+    "claude-ai": {
+     "target": "claude-ai",
+     "status": 403,
+     "reachable": true
+    },
+    "gemini": {
+     "target": "gemini",
+     "status": 403,
+     "reachable": true
+    },
+    "chatgpt-web": {
+     "target": "chatgpt-web",
+     "status": 200,
+     "reachable": true
+    },
+    "cf-trace": {
+     "target": "cf-trace",
+     "status": 200,
+     "reachable": true
+    },
+    "netflix": {
+     "target": "netflix",
+     "status": 301,
+     "reachable": true
+    },
+    "spotify": {
+     "target": "spotify",
+     "status": 200,
+     "reachable": true
+    }
+   }
+  },
+  {
+   "port": 34549,
+   "node_id": "1161",
+   "location": "Finland 1Gbps",
+   "tier": "premium",
+   "proto": "hysteria2",
+   "server": "95.216.27.15:8444",
+   "country": "FN",
+   "targets": {
+    "anthropic": {
+     "target": "anthropic",
+     "status": 405,
+     "reachable": true
+    },
+    "gemini": {
+     "target": "gemini",
+     "status": 403,
+     "reachable": true
+    },
+    "claude-ai": {
+     "target": "claude-ai",
+     "status": 403,
+     "reachable": true
+    },
+    "openai": {
+     "target": "openai",
+     "status": 401,
+     "reachable": true
+    },
+    "chatgpt-web": {
+     "target": "chatgpt-web",
+     "status": 200,
+     "reachable": true
+    },
+    "cf-trace": {
+     "target": "cf-trace",
+     "status": 200,
+     "reachable": true
+    },
+    "netflix": {
+     "target": "netflix",
+     "status": 301,
+     "reachable": true
+    },
+    "spotify": {
+     "target": "spotify",
+     "status": 200,
+     "reachable": true
+    }
+   }
+  }
+ ]
+}

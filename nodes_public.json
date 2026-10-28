@@ -1,0 +1,2741 @@
+{
+ "generated_at": "2026-10-29T05:09:08",
+ "source": "https://capvpn.site/api/",
+ "locations": [
+  {
+   "id": "116",
+   "name": "United Kingdom A41",
+   "type": "free,premium",
+   "country_flag": "https://flagicons.lipis.dev/flags/4x3/gb.svg",
+   "brief": "uk",
+   "best_server_score": "81.216",
+   "healthy_server_count": "3",
+   "auto_rotate": "1",
+   "tier": "free"
+  },
+  {
+   "id": "92",
+   "name": "France",
+   "type": "free",
+   "country_flag": "https://flagicons.lipis.dev/flags/4x3/fr.svg",
+   "brief": "Fr",
+   "best_server_score": "80.469",
+   "healthy_server_count": "3",
+   "auto_rotate": "1",
+   "tier": "free"
+  },
+  {
+   "id": "63",
+   "name": "Netherlands",
+   "type": "free",
+   "country_flag": "https://flagicons.lipis.dev/flags/4x3/nl.svg",
+   "brief": "NL",
+   "best_server_score": "79.332",
+   "healthy_server_count": "3",
+   "auto_rotate": "1",
+   "tier": "free"
+  },
+  {
+   "id": "76",
+   "name": "Canada",
+   "type": "free",
+   "country_flag": "https://flagicons.lipis.dev/flags/4x3/ca.svg",
+   "brief": "Au",
+   "best_server_score": "67.040",
+   "healthy_server_count": "3",
+   "auto_rotate": "1",
+   "tier": "free"
+  },
+  {
+   "id": "31",
+   "name": "Finland A41",
+   "type": "free",
+   "country_flag": "https://flagicons.lipis.dev/flags/4x3/fi.svg",
+   "brief": "Fn",
+   "best_server_score": "17.302",
+   "healthy_server_count": "3",
+   "auto_rotate": "1",
+   "tier": "free"
+  },
+  {
+   "id": "55",
+   "name": "Germany A41",
+   "type": "free",
+   "country_flag": "https://flagicons.lipis.dev/flags/4x3/de.svg",
+   "brief": "Fi",
+   "best_server_score": "0.000",
+   "healthy_server_count": "0",
+   "auto_rotate": "1",
+   "tier": "free"
+  },
+  {
+   "id": "27",
+   "name": "United States",
+   "type": "free",
+   "country_flag": "https://flagicons.lipis.dev/flags/4x3/us.svg",
+   "brief": "US",
+   "best_server_score": "95.312",
+   "healthy_server_count": "5",
+   "auto_rotate": "0",
+   "tier": "free"
+  },
+  {
+   "id": "118",
+   "name": "Germany A42",
+   "type": "free,premium",
+   "country_flag": "https://flagicons.lipis.dev/flags/4x3/de.svg",
+   "brief": "De",
+   "best_server_score": "0.000",
+   "healthy_server_count": "0",
+   "auto_rotate": "0",
+   "tier": "free"
+  },
+  {
+   "id": "79",
+   "name": "United Kingdom",
+   "type": "free",
+   "country_flag": "https://flagicons.lipis.dev/flags/4x3/gb.svg",
+   "brief": "Uk",
+   "best_server_score": "81.216",
+   "healthy_server_count": "3",
+   "auto_rotate": "0",
+   "tier": "free"
+  },
+  {
+   "id": "88",
+   "name": "Spain A41",
+   "type": "free",
+   "country_flag": "https://flagicons.lipis.dev/flags/4x3/es.svg",
+   "brief": "Sp",
+   "best_server_score": "89.793",
+   "healthy_server_count": "3",
+   "auto_rotate": "0",
+   "tier": "free"
+  },
+  {
+   "id": "57",
+   "name": "Australia",
+   "type": "free",
+   "country_flag": "https://flagicons.lipis.dev/flags/4x3/au.svg",
+   "brief": "Au",
+   "best_server_score": "0.000",
+   "healthy_server_count": "0",
+   "auto_rotate": "0",
+   "tier": "free"
+  },
+  {
+   "id": "77",
+   "name": "India",
+   "type": "free",
+   "country_flag": "https://flagicons.lipis.dev/flags/4x3/in.svg",
+   "brief": "IN",
+   "best_server_score": "76.401",
+   "healthy_server_count": "3",
+   "auto_rotate": "0",
+   "tier": "free"
+  },
+  {
+   "id": "72",
+   "name": "Spain",
+   "type": "premium",
+   "country_flag": "https://flagicons.lipis.dev/flags/4x3/es.svg",
+   "brief": "Sp",
+   "best_server_score": null,
+   "healthy_server_count": null,
+   "auto_rotate": "1",
+   "tier": "premium"
+  },
+  {
+   "id": "116",
+   "name": "United Kingdom A41",
+   "type": "free,premium",
+   "country_flag": "https://flagicons.lipis.dev/flags/4x3/gb.svg",
+   "brief": "uk",
+   "best_server_score": null,
+   "healthy_server_count": null,
+   "auto_rotate": "1",
+   "tier": "premium"
+  },
+  {
+   "id": "48",
+   "name": "Singapore A42",
+   "type": "premium",
+   "country_flag": "https://flagicons.lipis.dev/flags/4x3/sg.svg",
+   "brief": "Sg",
+   "best_server_score": null,
+   "healthy_server_count": null,
+   "auto_rotate": "0",
+   "tier": "premium"
+  },
+  {
+   "id": "74",
+   "name": "Poland",
+   "type": "premium",
+   "country_flag": "https://flagicons.lipis.dev/flags/4x3/pl.svg",
+   "brief": "pl",
+   "best_server_score": null,
+   "healthy_server_count": null,
+   "auto_rotate": "0",
+   "tier": "premium"
+  },
+  {
+   "id": "104",
+   "name": "Streaming",
+   "type": "premium",
+   "country_flag": "https://capvpn.site/images/ukstream.svg",
+   "brief": "Us",
+   "best_server_score": null,
+   "healthy_server_count": null,
+   "auto_rotate": "0",
+   "tier": "premium"
+  },
+  {
+   "id": "113",
+   "name": "South Korea",
+   "type": "premium",
+   "country_flag": "https://flagicons.lipis.dev/flags/4x3/kr.svg",
+   "brief": "kr",
+   "best_server_score": null,
+   "healthy_server_count": null,
+   "auto_rotate": "0",
+   "tier": "premium"
+  },
+  {
+   "id": "115",
+   "name": "Italy",
+   "type": "premium",
+   "country_flag": "https://flagicons.lipis.dev/flags/4x3/it.svg",
+   "brief": "It",
+   "best_server_score": null,
+   "healthy_server_count": null,
+   "auto_rotate": "0",
+   "tier": "premium"
+  },
+  {
+   "id": "118",
+   "name": "Germany A42",
+   "type": "free,premium",
+   "country_flag": "https://flagicons.lipis.dev/flags/4x3/de.svg",
+   "brief": "De",
+   "best_server_score": null,
+   "healthy_server_count": null,
+   "auto_rotate": "0",
+   "tier": "premium"
+  },
+  {
+   "id": "119",
+   "name": "Singapore",
+   "type": "premium",
+   "country_flag": "https://flagicons.lipis.dev/flags/4x3/sg.svg",
+   "brief": "Sg",
+   "best_server_score": null,
+   "healthy_server_count": null,
+   "auto_rotate": "0",
+   "tier": "premium"
+  },
+  {
+   "id": "44",
+   "name": "United States",
+   "type": "premium",
+   "country_flag": "https://flagicons.lipis.dev/flags/4x3/us.svg",
+   "brief": "Us",
+   "best_server_score": null,
+   "healthy_server_count": null,
+   "auto_rotate": "0",
+   "tier": "premium"
+  },
+  {
+   "id": "56",
+   "name": "Canada 1Gbps",
+   "type": "premium",
+   "country_flag": "https://flagicons.lipis.dev/flags/4x3/ca.svg",
+   "brief": "Ca",
+   "best_server_score": null,
+   "healthy_server_count": null,
+   "auto_rotate": "0",
+   "tier": "premium"
+  },
+  {
+   "id": "93",
+   "name": "France",
+   "type": "premium",
+   "country_flag": "https://flagicons.lipis.dev/flags/4x3/fr.svg",
+   "brief": "Fr",
+   "best_server_score": null,
+   "healthy_server_count": null,
+   "auto_rotate": "0",
+   "tier": "premium"
+  },
+  {
+   "id": "45",
+   "name": "Japan",
+   "type": "premium",
+   "country_flag": "https://flagicons.lipis.dev/flags/4x3/jp.svg",
+   "brief": "Jp",
+   "best_server_score": null,
+   "healthy_server_count": null,
+   "auto_rotate": "0",
+   "tier": "premium"
+  },
+  {
+   "id": "47",
+   "name": "United Kingdom",
+   "type": "premium",
+   "country_flag": "https://flagicons.lipis.dev/flags/4x3/gb.svg",
+   "brief": "Uk",
+   "best_server_score": null,
+   "healthy_server_count": null,
+   "auto_rotate": "0",
+   "tier": "premium"
+  },
+  {
+   "id": "59",
+   "name": "Brazil",
+   "type": "premium",
+   "country_flag": "https://flagicons.lipis.dev/flags/4x3/br.svg",
+   "brief": "Br",
+   "best_server_score": null,
+   "healthy_server_count": null,
+   "auto_rotate": "0",
+   "tier": "premium"
+  },
+  {
+   "id": "62",
+   "name": "Netherlands",
+   "type": "premium",
+   "country_flag": "https://flagicons.lipis.dev/flags/4x3/nl.svg",
+   "brief": "Nl",
+   "best_server_score": null,
+   "healthy_server_count": null,
+   "auto_rotate": "0",
+   "tier": "premium"
+  },
+  {
+   "id": "64",
+   "name": "Germany 1Gbps",
+   "type": "premium",
+   "country_flag": "https://flagicons.lipis.dev/flags/4x3/de.svg",
+   "brief": "De",
+   "best_server_score": null,
+   "healthy_server_count": null,
+   "auto_rotate": "0",
+   "tier": "premium"
+  },
+  {
+   "id": "66",
+   "name": "Switzerland",
+   "type": "premium",
+   "country_flag": "https://flagicons.lipis.dev/flags/4x3/ch.svg",
+   "brief": "Ch",
+   "best_server_score": null,
+   "healthy_server_count": null,
+   "auto_rotate": "0",
+   "tier": "premium"
+  },
+  {
+   "id": "70",
+   "name": "Türkiye",
+   "type": "premium",
+   "country_flag": "https://flagicons.lipis.dev/flags/4x3/tr.svg",
+   "brief": "Tr",
+   "best_server_score": null,
+   "healthy_server_count": null,
+   "auto_rotate": "0",
+   "tier": "premium"
+  },
+  {
+   "id": "71",
+   "name": "Australia",
+   "type": "premium",
+   "country_flag": "https://flagicons.lipis.dev/flags/4x3/au.svg",
+   "brief": "Au",
+   "best_server_score": null,
+   "healthy_server_count": null,
+   "auto_rotate": "0",
+   "tier": "premium"
+  },
+  {
+   "id": "75",
+   "name": "Sweden",
+   "type": "premium",
+   "country_flag": "https://flagicons.lipis.dev/flags/4x3/se.svg",
+   "brief": "Se",
+   "best_server_score": null,
+   "healthy_server_count": null,
+   "auto_rotate": "0",
+   "tier": "premium"
+  },
+  {
+   "id": "78",
+   "name": "India",
+   "type": "premium",
+   "country_flag": "https://flagicons.lipis.dev/flags/4x3/in.svg",
+   "brief": "IN",
+   "best_server_score": null,
+   "healthy_server_count": null,
+   "auto_rotate": "0",
+   "tier": "premium"
+  },
+  {
+   "id": "80",
+   "name": "Finland 1Gbps",
+   "type": "premium",
+   "country_flag": "https://flagicons.lipis.dev/flags/4x3/fi.svg",
+   "brief": "Fn",
+   "best_server_score": null,
+   "healthy_server_count": null,
+   "auto_rotate": "0",
+   "tier": "premium"
+  }
+ ],
+ "nodes": [
+  {
+   "server_id": "1200",
+   "server_name": "UK-1",
+   "location_id": "116",
+   "location_name": "United Kingdom A41",
+   "tier": "free",
+   "country": "UK",
+   "ip": "51.89.194.151",
+   "is_online": "1",
+   "port_open": "1",
+   "health_score": "81.216",
+   "bandwidth_mbps": "224.56",
+   "cpu_pct": "7.00",
+   "ram_pct": "9.05",
+   "last_health_at": "2026-10-28 21:09:03",
+   "protocol_type": "wireguard",
+   "protocols": {
+    "wireguard": {
+     "proto": "wireguard",
+     "raw": "wireguard://REDACTED@51.89.194.151:51820?address=%7BWG_IP%7D&peer_pubkey=XA3y3XavBG1VonONhSk8LmHCk1GZ2uIaQft7Gk+OwXU%3D&dns=1.1.1.1#CapVPN",
+     "scheme": "wireguard",
+     "host": "51.89.194.151",
+     "port": 51820,
+     "userinfo": "REDACTED",
+     "query": {
+      "address": "{WG_IP}",
+      "peer_pubkey": "XA3y3XavBG1VonONhSk8LmHCk1GZ2uIaQft7Gk OwXU=",
+      "dns": "1.1.1.1"
+     }
+    },
+    "hysteria2": {
+     "proto": "hysteria2",
+     "raw": "hysteria2://REDACTED@51.89.194.151:8446?mport=23000-23199%2C36000-36199&obfs=salamander&obfs-password=REDACTED&sni=vpn.local&insecure=1#CapVPN",
+     "scheme": "hysteria2",
+     "host": "51.89.194.151",
+     "port": 8446,
+     "userinfo": "REDACTED",
+     "query": {
+      "mport": "23000-23199,36000-36199",
+      "obfs": "salamander",
+      "obfs-password": "REDACTED",
+      "sni": "vpn.local",
+      "insecure": "1"
+     }
+    },
+    "vless": {
+     "proto": "vless",
+     "raw": "vless://REDACTED@51.89.194.151:2053?encryption=none&security=reality&sni=www.apple.com&fp=chrome&pbk=REDACTED&sid=REDACTED&type=tcp#CapVPN",
+     "scheme": "vless",
+     "host": "51.89.194.151",
+     "port": 2053,
+     "userinfo": "REDACTED",
+     "query": {
+      "encryption": "none",
+      "security": "reality",
+      "sni": "www.apple.com",
+      "fp": "chrome",
+      "pbk": "REDACTED",
+      "sid": "REDACTED",
+      "type": "tcp"
+     }
+    }
+   }
+  },
+  {
+   "server_id": "1116",
+   "server_name": "FR-1",
+   "location_id": "92",
+   "location_name": "France",
+   "tier": "free",
+   "country": "FR",
+   "ip": "51.77.217.70",
+   "is_online": "1",
+   "port_open": "1",
+   "health_score": "80.469",
+   "bandwidth_mbps": "159.02",
+   "cpu_pct": "18.18",
+   "ram_pct": "4.50",
+   "last_health_at": "2026-10-28 21:09:02",
+   "protocol_type": "wireguard",
+   "protocols": {
+    "wireguard": {
+     "proto": "wireguard",
+     "raw": "wireguard://REDACTED@51.77.217.70:51820?address=%7BWG_IP%7D&peer_pubkey=HqivX0NQMiRIOiIB+mzKYPl%2FGE+ns9H76kxqpBGAHE0%3D&dns=1.1.1.1#CapVPN",
+     "scheme": "wireguard",
+     "host": "51.77.217.70",
+     "port": 51820,
+     "userinfo": "REDACTED",
+     "query": {
+      "address": "{WG_IP}",
+      "peer_pubkey": "HqivX0NQMiRIOiIB mzKYPl/GE ns9H76kxqpBGAHE0=",
+      "dns": "1.1.1.1"
+     }
+    },
+    "hysteria2": {
+     "proto": "hysteria2",
+     "raw": "hysteria2://REDACTED@51.77.217.70:8446?mport=23000-23199%2C36000-36199&obfs=salamander&obfs-password=REDACTED&sni=vpn.local&insecure=1#CapVPN",
+     "scheme": "hysteria2",
+     "host": "51.77.217.70",
+     "port": 8446,
+     "userinfo": "REDACTED",
+     "query": {
+      "mport": "23000-23199,36000-36199",
+      "obfs": "salamander",
+      "obfs-password": "REDACTED",
+      "sni": "vpn.local",
+      "insecure": "1"
+     }
+    },
+    "vless": {
+     "proto": "vless",
+     "raw": "vless://REDACTED@51.77.217.70:2053?encryption=none&security=reality&sni=www.apple.com&fp=chrome&pbk=REDACTED&sid=REDACTED&type=tcp#CapVPN",
+     "scheme": "vless",
+     "host": "51.77.217.70",
+     "port": 2053,
+     "userinfo": "REDACTED",
+     "query": {
+      "encryption": "none",
+      "security": "reality",
+      "sni": "www.apple.com",
+      "fp": "chrome",
+      "pbk": "REDACTED",
+      "sid": "REDACTED",
+      "type": "tcp"
+     }
+    }
+   }
+  },
+  {
+   "server_id": "1215",
+   "server_name": "NL-1",
+   "location_id": "63",
+   "location_name": "Netherlands",
+   "tier": "free",
+   "country": "NL",
+   "ip": "51.15.16.68",
+   "is_online": "1",
+   "port_open": "1",
+   "health_score": "79.332",
+   "bandwidth_mbps": "164.95",
+   "cpu_pct": "19.79",
+   "ram_pct": "4.38",
+   "last_health_at": "2026-10-28 21:09:04",
+   "protocol_type": "wireguard",
+   "protocols": {
+    "wireguard": {
+     "proto": "wireguard",
+     "raw": "wireguard://REDACTED@51.15.16.68:51820?address=%7BWG_IP%7D&peer_pubkey=pKNGimuwvIczyRnC7qD5P6jVe9OTCvacRGrh4P8FGgw%3D&dns=1.1.1.1#CapVPN",
+     "scheme": "wireguard",
+     "host": "51.15.16.68",
+     "port": 51820,
+     "userinfo": "REDACTED",
+     "query": {
+      "address": "{WG_IP}",
+      "peer_pubkey": "pKNGimuwvIczyRnC7qD5P6jVe9OTCvacRGrh4P8FGgw=",
+      "dns": "1.1.1.1"
+     }
+    },
+    "hysteria2": {
+     "proto": "hysteria2",
+     "raw": "hysteria2://REDACTED@51.15.16.68:8447?mport=24000-24199%2C37000-37199&obfs=salamander&obfs-password=REDACTED&sni=vpn.local&insecure=1#CapVPN",
+     "scheme": "hysteria2",
+     "host": "51.15.16.68",
+     "port": 8447,
+     "userinfo": "REDACTED",
+     "query": {
+      "mport": "24000-24199,37000-37199",
+      "obfs": "salamander",
+      "obfs-password": "REDACTED",
+      "sni": "vpn.local",
+      "insecure": "1"
+     }
+    },
+    "vless": {
+     "proto": "vless",
+     "raw": "vless://REDACTED@51.15.16.68:2053?encryption=none&security=reality&sni=www.apple.com&fp=chrome&pbk=REDACTED&sid=REDACTED&type=tcp#CapVPN",
+     "scheme": "vless",
+     "host": "51.15.16.68",
+     "port": 2053,
+     "userinfo": "REDACTED",
+     "query": {
+      "encryption": "none",
+      "security": "reality",
+      "sni": "www.apple.com",
+      "fp": "chrome",
+      "pbk": "REDACTED",
+      "sid": "REDACTED",
+      "type": "tcp"
+     }
+    }
+   }
+  },
+  {
+   "server_id": "1122",
+   "server_name": "CA-1",
+   "location_id": "76",
+   "location_name": "Canada",
+   "tier": "free",
+   "country": "CA",
+   "ip": "66.70.179.198",
+   "is_online": "1",
+   "port_open": "1",
+   "health_score": "67.040",
+   "bandwidth_mbps": "342.17",
+   "cpu_pct": "22.00",
+   "ram_pct": "7.15",
+   "last_health_at": "2026-10-28 21:09:03",
+   "protocol_type": "wireguard",
+   "protocols": {
+    "wireguard": {
+     "proto": "wireguard",
+     "raw": "wireguard://REDACTED@66.70.179.198:51820?address=%7BWG_IP%7D&peer_pubkey=pR8iPlawcUbRNv3sDf+c1xE5jejJ%2FHDPyr3lDZ0waGQ%3D&dns=1.1.1.1#CapVPN",
+     "scheme": "wireguard",
+     "host": "66.70.179.198",
+     "port": 51820,
+     "userinfo": "REDACTED",
+     "query": {
+      "address": "{WG_IP}",
+      "peer_pubkey": "pR8iPlawcUbRNv3sDf c1xE5jejJ/HDPyr3lDZ0waGQ=",
+      "dns": "1.1.1.1"
+     }
+    },
+    "hysteria2": {
+     "proto": "hysteria2",
+     "raw": "hysteria2://REDACTED@66.70.179.198:8447?mport=24000-24199%2C37000-37199&obfs=salamander&obfs-password=REDACTED&sni=vpn.local&insecure=1#CapVPN",
+     "scheme": "hysteria2",
+     "host": "66.70.179.198",
+     "port": 8447,
+     "userinfo": "REDACTED",
+     "query": {
+      "mport": "24000-24199,37000-37199",
+      "obfs": "salamander",
+      "obfs-password": "REDACTED",
+      "sni": "vpn.local",
+      "insecure": "1"
+     }
+    },
+    "vless": {
+     "proto": "vless",
+     "raw": "vless://REDACTED@66.70.179.198:2053?encryption=none&security=reality&sni=www.cloudflare.com&fp=chrome&pbk=REDACTED&sid=REDACTED&type=tcp#CapVPN",
+     "scheme": "vless",
+     "host": "66.70.179.198",
+     "port": 2053,
+     "userinfo": "REDACTED",
+     "query": {
+      "encryption": "none",
+      "security": "reality",
+      "sni": "www.cloudflare.com",
+      "fp": "chrome",
+      "pbk": "REDACTED",
+      "sid": "REDACTED",
+      "type": "tcp"
+     }
+    }
+   }
+  },
+  {
+   "server_id": "1158",
+   "server_name": "FN-1",
+   "location_id": "31",
+   "location_name": "Finland A41",
+   "tier": "free",
+   "country": "FN",
+   "ip": "95.216.27.15",
+   "is_online": "1",
+   "port_open": "1",
+   "health_score": "17.302",
+   "bandwidth_mbps": "944.92",
+   "cpu_pct": "95.10",
+   "ram_pct": "25.74",
+   "last_health_at": "2026-10-28 21:09:03",
+   "protocol_type": "wireguard",
+   "protocols": {
+    "wireguard": {
+     "proto": "wireguard",
+     "raw": "wireguard://REDACTED@95.216.27.15:51820?address=%7BWG_IP%7D&peer_pubkey=P1ZENrUwvpEvtAwXD15UZhbriRqddyL5pNmcC%2FLCTFk%3D&dns=1.1.1.1#CapVPN",
+     "scheme": "wireguard",
+     "host": "95.216.27.15",
+     "port": 51820,
+     "userinfo": "REDACTED",
+     "query": {
+      "address": "{WG_IP}",
+      "peer_pubkey": "P1ZENrUwvpEvtAwXD15UZhbriRqddyL5pNmcC/LCTFk=",
+      "dns": "1.1.1.1"
+     }
+    },
+    "hysteria2": {
+     "proto": "hysteria2",
+     "raw": "hysteria2://REDACTED@95.216.27.15:8445?mport=22000-22199%2C34000-34199&obfs=salamander&obfs-password=REDACTED&sni=vpn.local&insecure=1#CapVPN",
+     "scheme": "hysteria2",
+     "host": "95.216.27.15",
+     "port": 8445,
+     "userinfo": "REDACTED",
+     "query": {
+      "mport": "22000-22199,34000-34199",
+      "obfs": "salamander",
+      "obfs-password": "REDACTED",
+      "sni": "vpn.local",
+      "insecure": "1"
+     }
+    },
+    "vless": {
+     "proto": "vless",
+     "raw": "vless://REDACTED@95.216.27.15:2053?encryption=none&security=reality&sni=www.google.com&fp=chrome&pbk=REDACTED&sid=REDACTED&type=tcp#CapVPN",
+     "scheme": "vless",
+     "host": "95.216.27.15",
+     "port": 2053,
+     "userinfo": "REDACTED",
+     "query": {
+      "encryption": "none",
+      "security": "reality",
+      "sni": "www.google.com",
+      "fp": "chrome",
+      "pbk": "REDACTED",
+      "sid": "REDACTED",
+      "type": "tcp"
+     }
+    }
+   }
+  },
+  {
+   "server_id": "1128",
+   "server_name": "DE-1",
+   "location_id": "55",
+   "location_name": "Germany A41",
+   "tier": "free",
+   "country": "DE",
+   "ip": "162.55.242.208",
+   "is_online": "0",
+   "port_open": "0",
+   "health_score": "0.000",
+   "bandwidth_mbps": "383.97",
+   "cpu_pct": "57.84",
+   "ram_pct": "2.72",
+   "last_health_at": "2026-10-27 17:15:33",
+   "protocol_type": "wireguard",
+   "protocols": {
+    "wireguard": {
+     "proto": "wireguard",
+     "raw": "wireguard://REDACTED@162.55.242.208:51820?address=%7BWG_IP%7D&peer_pubkey=+kEFullzTYH4UwdLWPjFA657b+hWN%2Falz5mvCWF86jI%3D&dns=1.1.1.1#CapVPN",
+     "scheme": "wireguard",
+     "host": "162.55.242.208",
+     "port": 51820,
+     "userinfo": "REDACTED",
+     "query": {
+      "address": "{WG_IP}",
+      "peer_pubkey": " kEFullzTYH4UwdLWPjFA657b hWN/alz5mvCWF86jI=",
+      "dns": "1.1.1.1"
+     }
+    },
+    "hysteria2": {
+     "proto": "hysteria2",
+     "raw": "hysteria2://REDACTED@162.55.242.208:8445?mport=22000-22199%2C34000-34199&obfs=salamander&obfs-password=REDACTED&sni=vpn.local&insecure=1#CapVPN",
+     "scheme": "hysteria2",
+     "host": "162.55.242.208",
+     "port": 8445,
+     "userinfo": "REDACTED",
+     "query": {
+      "mport": "22000-22199,34000-34199",
+      "obfs": "salamander",
+      "obfs-password": "REDACTED",
+      "sni": "vpn.local",
+      "insecure": "1"
+     }
+    },
+    "vless": {
+     "proto": "vless",
+     "raw": "vless://REDACTED@162.55.242.208:2053?encryption=none&security=reality&sni=www.cloudflare.com&fp=chrome&pbk=REDACTED&sid=REDACTED&type=tcp#CapVPN",
+     "scheme": "vless",
+     "host": "162.55.242.208",
+     "port": 2053,
+     "userinfo": "REDACTED",
+     "query": {
+      "encryption": "none",
+      "security": "reality",
+      "sni": "www.cloudflare.com",
+      "fp": "chrome",
+      "pbk": "REDACTED",
+      "sid": "REDACTED",
+      "type": "tcp"
+     }
+    }
+   }
+  },
+  {
+   "server_id": "1230",
+   "server_name": "usa-2",
+   "location_id": "27",
+   "location_name": "United States",
+   "tier": "free",
+   "country": null,
+   "ip": "212.227.235.66",
+   "is_online": "1",
+   "port_open": "1",
+   "health_score": "89.793",
+   "bandwidth_mbps": "38.74",
+   "cpu_pct": "11.65",
+   "ram_pct": "10.29",
+   "last_health_at": "2026-10-28 21:09:03",
+   "protocol_type": "multi",
+   "protocols": {
+    "hysteria2": {
+     "proto": "hysteria2",
+     "raw": "hysteria2://REDACTED@212.227.235.66:8444?mport=21000-21199%2C33000-33199&obfs=salamander&obfs-password=REDACTED&sni=vpn.local&insecure=1#CapVPN",
+     "scheme": "hysteria2",
+     "host": "212.227.235.66",
+     "port": 8444,
+     "userinfo": "REDACTED",
+     "query": {
+      "mport": "21000-21199,33000-33199",
+      "obfs": "salamander",
+      "obfs-password": "REDACTED",
+      "sni": "vpn.local",
+      "insecure": "1"
+     }
+    },
+    "wireguard": {
+     "proto": "wireguard",
+     "raw": "wireguard://REDACTED@212.227.235.66:51820?address=%7BWG_IP%7D&peer_pubkey=yh2Bohb99ZJCSa2dFIjC+x3EE7%2FgxasDQ6CXNgFyYTE%3D&dns=1.1.1.1#CapVPN",
+     "scheme": "wireguard",
+     "host": "212.227.235.66",
+     "port": 51820,
+     "userinfo": "REDACTED",
+     "query": {
+      "address": "{WG_IP}",
+      "peer_pubkey": "yh2Bohb99ZJCSa2dFIjC x3EE7/gxasDQ6CXNgFyYTE=",
+      "dns": "1.1.1.1"
+     }
+    }
+   }
+  },
+  {
+   "server_id": "1234",
+   "server_name": "USA-1",
+   "location_id": "27",
+   "location_name": "United States",
+   "tier": "free",
+   "country": "US",
+   "ip": "74.208.55.79",
+   "is_online": "1",
+   "port_open": "1",
+   "health_score": "95.312",
+   "bandwidth_mbps": "0.00",
+   "cpu_pct": "0.00",
+   "ram_pct": "23.44",
+   "last_health_at": "2026-10-28 21:09:02",
+   "protocol_type": "wireguard",
+   "protocols": {
+    "wireguard": {
+     "proto": "wireguard",
+     "raw": "wireguard://REDACTED@74.208.55.79:51820?address=%7BWG_IP%7D&peer_pubkey=LJb4lLkA6iCylPQmj2ZuMqbggDKQ7cXc70dHNqQ%2FvQA%3D&dns=1.1.1.1#CapVPN",
+     "scheme": "wireguard",
+     "host": "74.208.55.79",
+     "port": 51820,
+     "userinfo": "REDACTED",
+     "query": {
+      "address": "{WG_IP}",
+      "peer_pubkey": "LJb4lLkA6iCylPQmj2ZuMqbggDKQ7cXc70dHNqQ/vQA=",
+      "dns": "1.1.1.1"
+     }
+    },
+    "hysteria2": {
+     "proto": "hysteria2",
+     "raw": "hysteria2://REDACTED@74.208.55.79:8445?mport=22000-22199%2C34000-34199&obfs=salamander&obfs-password=REDACTED&sni=vpn.local&insecure=1#CapVPN",
+     "scheme": "hysteria2",
+     "host": "74.208.55.79",
+     "port": 8445,
+     "userinfo": "REDACTED",
+     "query": {
+      "mport": "22000-22199,34000-34199",
+      "obfs": "salamander",
+      "obfs-password": "REDACTED",
+      "sni": "vpn.local",
+      "insecure": "1"
+     }
+    },
+    "vless": {
+     "proto": "vless",
+     "raw": "vless://REDACTED@74.208.55.79:2053?encryption=none&security=reality&sni=www.apple.com&fp=chrome&pbk=REDACTED&sid=REDACTED&type=tcp#CapVPN",
+     "scheme": "vless",
+     "host": "74.208.55.79",
+     "port": 2053,
+     "userinfo": "REDACTED",
+     "query": {
+      "encryption": "none",
+      "security": "reality",
+      "sni": "www.apple.com",
+      "fp": "chrome",
+      "pbk": "REDACTED",
+      "sid": "REDACTED",
+      "type": "tcp"
+     }
+    }
+   }
+  },
+  {
+   "server_id": "1134",
+   "server_name": "DE-1",
+   "location_id": "118",
+   "location_name": "Germany A42",
+   "tier": "free",
+   "country": "DE",
+   "ip": "162.55.242.208",
+   "is_online": "0",
+   "port_open": "0",
+   "health_score": "0.000",
+   "bandwidth_mbps": "383.97",
+   "cpu_pct": "57.84",
+   "ram_pct": "2.72",
+   "last_health_at": "2026-10-27 17:15:33",
+   "protocol_type": "wireguard",
+   "protocols": {
+    "wireguard": {
+     "proto": "wireguard",
+     "raw": "wireguard://REDACTED@162.55.242.208:51820?address=%7BWG_IP%7D&peer_pubkey=+kEFullzTYH4UwdLWPjFA657b+hWN%2Falz5mvCWF86jI%3D&dns=1.1.1.1#CapVPN",
+     "scheme": "wireguard",
+     "host": "162.55.242.208",
+     "port": 51820,
+     "userinfo": "REDACTED",
+     "query": {
+      "address": "{WG_IP}",
+      "peer_pubkey": " kEFullzTYH4UwdLWPjFA657b hWN/alz5mvCWF86jI=",
+      "dns": "1.1.1.1"
+     }
+    },
+    "hysteria2": {
+     "proto": "hysteria2",
+     "raw": "hysteria2://REDACTED@162.55.242.208:8447?mport=24000-24199%2C37000-37199&obfs=salamander&obfs-password=REDACTED&sni=vpn.local&insecure=1#CapVPN",
+     "scheme": "hysteria2",
+     "host": "162.55.242.208",
+     "port": 8447,
+     "userinfo": "REDACTED",
+     "query": {
+      "mport": "24000-24199,37000-37199",
+      "obfs": "salamander",
+      "obfs-password": "REDACTED",
+      "sni": "vpn.local",
+      "insecure": "1"
+     }
+    },
+    "vless": {
+     "proto": "vless",
+     "raw": "vless://REDACTED@162.55.242.208:2053?encryption=none&security=reality&sni=www.cloudflare.com&fp=chrome&pbk=REDACTED&sid=REDACTED&type=tcp#CapVPN",
+     "scheme": "vless",
+     "host": "162.55.242.208",
+     "port": 2053,
+     "userinfo": "REDACTED",
+     "query": {
+      "encryption": "none",
+      "security": "reality",
+      "sni": "www.cloudflare.com",
+      "fp": "chrome",
+      "pbk": "REDACTED",
+      "sid": "REDACTED",
+      "type": "tcp"
+     }
+    }
+   }
+  },
+  {
+   "server_id": "1209",
+   "server_name": "UK-1",
+   "location_id": "79",
+   "location_name": "United Kingdom",
+   "tier": "free",
+   "country": "UK",
+   "ip": "51.89.194.151",
+   "is_online": "1",
+   "port_open": "1",
+   "health_score": "81.216",
+   "bandwidth_mbps": "224.56",
+   "cpu_pct": "7.00",
+   "ram_pct": "9.05",
+   "last_health_at": "2026-10-28 21:09:03",
+   "protocol_type": "wireguard",
+   "protocols": {
+    "wireguard": {
+     "proto": "wireguard",
+     "raw": "wireguard://REDACTED@51.89.194.151:51820?address=%7BWG_IP%7D&peer_pubkey=XA3y3XavBG1VonONhSk8LmHCk1GZ2uIaQft7Gk+OwXU%3D&dns=1.1.1.1#CapVPN",
+     "scheme": "wireguard",
+     "host": "51.89.194.151",
+     "port": 51820,
+     "userinfo": "REDACTED",
+     "query": {
+      "address": "{WG_IP}",
+      "peer_pubkey": "XA3y3XavBG1VonONhSk8LmHCk1GZ2uIaQft7Gk OwXU=",
+      "dns": "1.1.1.1"
+     }
+    },
+    "hysteria2": {
+     "proto": "hysteria2",
+     "raw": "hysteria2://REDACTED@51.89.194.151:8446?mport=23000-23199%2C36000-36199&obfs=salamander&obfs-password=REDACTED&sni=vpn.local&insecure=1#CapVPN",
+     "scheme": "hysteria2",
+     "host": "51.89.194.151",
+     "port": 8446,
+     "userinfo": "REDACTED",
+     "query": {
+      "mport": "23000-23199,36000-36199",
+      "obfs": "salamander",
+      "obfs-password": "REDACTED",
+      "sni": "vpn.local",
+      "insecure": "1"
+     }
+    },
+    "vless": {
+     "proto": "vless",
+     "raw": "vless://REDACTED@51.89.194.151:2053?encryption=none&security=reality&sni=www.apple.com&fp=chrome&pbk=REDACTED&sid=REDACTED&type=tcp#CapVPN",
+     "scheme": "vless",
+     "host": "51.89.194.151",
+     "port": 2053,
+     "userinfo": "REDACTED",
+     "query": {
+      "encryption": "none",
+      "security": "reality",
+      "sni": "www.apple.com",
+      "fp": "chrome",
+      "pbk": "REDACTED",
+      "sid": "REDACTED",
+      "type": "tcp"
+     }
+    }
+   }
+  },
+  {
+   "server_id": "1077",
+   "server_name": "SP-1",
+   "location_id": "88",
+   "location_name": "Spain A41",
+   "tier": "free",
+   "country": "SP",
+   "ip": "212.227.235.66",
+   "is_online": "1",
+   "port_open": "1",
+   "health_score": "89.793",
+   "bandwidth_mbps": "38.74",
+   "cpu_pct": "11.65",
+   "ram_pct": "10.29",
+   "last_health_at": "2026-10-28 21:09:03",
+   "protocol_type": "wireguard",
+   "protocols": {
+    "wireguard": {
+     "proto": "wireguard",
+     "raw": "wireguard://REDACTED@212.227.235.66:51820?address=%7BWG_IP%7D&peer_pubkey=yh2Bohb99ZJCSa2dFIjC+x3EE7%2FgxasDQ6CXNgFyYTE%3D&dns=1.1.1.1#CapVPN",
+     "scheme": "wireguard",
+     "host": "212.227.235.66",
+     "port": 51820,
+     "userinfo": "REDACTED",
+     "query": {
+      "address": "{WG_IP}",
+      "peer_pubkey": "yh2Bohb99ZJCSa2dFIjC x3EE7/gxasDQ6CXNgFyYTE=",
+      "dns": "1.1.1.1"
+     }
+    },
+    "hysteria2": {
+     "proto": "hysteria2",
+     "raw": "hysteria2://REDACTED@212.227.235.66:8447?mport=24000-24199%2C37000-37199&obfs=salamander&obfs-password=REDACTED&sni=vpn.local&insecure=1#CapVPN",
+     "scheme": "hysteria2",
+     "host": "212.227.235.66",
+     "port": 8447,
+     "userinfo": "REDACTED",
+     "query": {
+      "mport": "24000-24199,37000-37199",
+      "obfs": "salamander",
+      "obfs-password": "REDACTED",
+      "sni": "vpn.local",
+      "insecure": "1"
+     }
+    },
+    "vless": {
+     "proto": "vless",
+     "raw": "vless://REDACTED@212.227.235.66:2053?encryption=none&security=reality&sni=www.apple.com&fp=chrome&pbk=REDACTED&sid=REDACTED&type=tcp#CapVPN",
+     "scheme": "vless",
+     "host": "212.227.235.66",
+     "port": 2053,
+     "userinfo": "REDACTED",
+     "query": {
+      "encryption": "none",
+      "security": "reality",
+      "sni": "www.apple.com",
+      "fp": "chrome",
+      "pbk": "REDACTED",
+      "sid": "REDACTED",
+      "type": "tcp"
+     }
+    }
+   }
+  },
+  {
+   "server_id": "1167",
+   "server_name": "AU-1",
+   "location_id": "57",
+   "location_name": "Australia",
+   "tier": "free",
+   "country": "AU",
+   "ip": "46.250.240.80",
+   "is_online": "0",
+   "port_open": "0",
+   "health_score": "0.000",
+   "bandwidth_mbps": "16.73",
+   "cpu_pct": "23.08",
+   "ram_pct": "5.20",
+   "last_health_at": "2026-10-28 09:28:33",
+   "protocol_type": "wireguard",
+   "protocols": {
+    "wireguard": {
+     "proto": "wireguard",
+     "raw": "wireguard://REDACTED@46.250.240.80:51820?address=%7BWG_IP%7D&peer_pubkey=Woy1HR+oAZw%2F9IkLgVdLJEjm8vQHy%2Fn8Dzg6gEPeBgg%3D&dns=1.1.1.1#CapVPN",
+     "scheme": "wireguard",
+     "host": "46.250.240.80",
+     "port": 51820,
+     "userinfo": "REDACTED",
+     "query": {
+      "address": "{WG_IP}",
+      "peer_pubkey": "Woy1HR oAZw/9IkLgVdLJEjm8vQHy/n8Dzg6gEPeBgg=",
+      "dns": "1.1.1.1"
+     }
+    },
+    "hysteria2": {
+     "proto": "hysteria2",
+     "raw": "hysteria2://REDACTED@46.250.240.80:8447?mport=24000-24199%2C37000-37199&obfs=salamander&obfs-password=REDACTED&sni=vpn.local&insecure=1#CapVPN",
+     "scheme": "hysteria2",
+     "host": "46.250.240.80",
+     "port": 8447,
+     "userinfo": "REDACTED",
+     "query": {
+      "mport": "24000-24199,37000-37199",
+      "obfs": "salamander",
+      "obfs-password": "REDACTED",
+      "sni": "vpn.local",
+      "insecure": "1"
+     }
+    },
+    "vless": {
+     "proto": "vless",
+     "raw": "vless://REDACTED@46.250.240.80:2053?encryption=none&security=reality&sni=www.cloudflare.com&fp=chrome&pbk=REDACTED&sid=REDACTED&type=tcp#CapVPN",
+     "scheme": "vless",
+     "host": "46.250.240.80",
+     "port": 2053,
+     "userinfo": "REDACTED",
+     "query": {
+      "encryption": "none",
+      "security": "reality",
+      "sni": "www.cloudflare.com",
+      "fp": "chrome",
+      "pbk": "REDACTED",
+      "sid": "REDACTED",
+      "type": "tcp"
+     }
+    }
+   }
+  },
+  {
+   "server_id": "1179",
+   "server_name": "IN-1",
+   "location_id": "77",
+   "location_name": "India",
+   "tier": "free",
+   "country": "IN",
+   "ip": "194.61.31.126",
+   "is_online": "1",
+   "port_open": "1",
+   "health_score": "76.401",
+   "bandwidth_mbps": "89.62",
+   "cpu_pct": "34.82",
+   "ram_pct": "4.06",
+   "last_health_at": "2026-10-28 21:09:03",
+   "protocol_type": "wireguard",
+   "protocols": {
+    "wireguard": {
+     "proto": "wireguard",
+     "raw": "wireguard://REDACTED@194.61.31.126:51820?address=%7BWG_IP%7D&peer_pubkey=sE75VeJEEpwxd3xES+wszjuUoJjX+3FfMRRcqh1czlY%3D&dns=1.1.1.1#CapVPN",
+     "scheme": "wireguard",
+     "host": "194.61.31.126",
+     "port": 51820,
+     "userinfo": "REDACTED",
+     "query": {
+      "address": "{WG_IP}",
+      "peer_pubkey": "sE75VeJEEpwxd3xES wszjuUoJjX 3FfMRRcqh1czlY=",
+      "dns": "1.1.1.1"
+     }
+    },
+    "hysteria2": {
+     "proto": "hysteria2",
+     "raw": "hysteria2://REDACTED@194.61.31.126:8447?mport=24000-24199%2C37000-37199&obfs=salamander&obfs-password=REDACTED&sni=vpn.local&insecure=1#CapVPN",
+     "scheme": "hysteria2",
+     "host": "194.61.31.126",
+     "port": 8447,
+     "userinfo": "REDACTED",
+     "query": {
+      "mport": "24000-24199,37000-37199",
+      "obfs": "salamander",
+      "obfs-password": "REDACTED",
+      "sni": "vpn.local",
+      "insecure": "1"
+     }
+    },
+    "vless": {
+     "proto": "vless",
+     "raw": "vless://REDACTED@194.61.31.126:2053?encryption=none&security=reality&sni=www.apple.com&fp=chrome&pbk=REDACTED&sid=REDACTED&type=tcp#CapVPN",
+     "scheme": "vless",
+     "host": "194.61.31.126",
+     "port": 2053,
+     "userinfo": "REDACTED",
+     "query": {
+      "encryption": "none",
+      "security": "reality",
+      "sni": "www.apple.com",
+      "fp": "chrome",
+      "pbk": "REDACTED",
+      "sid": "REDACTED",
+      "type": "tcp"
+     }
+    }
+   }
+  },
+  {
+   "server_id": "1080",
+   "server_name": "SP-1",
+   "location_id": "72",
+   "location_name": "Spain",
+   "tier": "premium",
+   "country": "SP",
+   "ip": "212.227.235.66",
+   "is_online": "1",
+   "port_open": "1",
+   "health_score": "89.793",
+   "bandwidth_mbps": "38.74",
+   "cpu_pct": "11.65",
+   "ram_pct": "10.29",
+   "last_health_at": "2026-10-28 21:09:03",
+   "protocol_type": "wireguard",
+   "protocols": {
+    "wireguard": {
+     "proto": "wireguard",
+     "raw": "wireguard://REDACTED@212.227.235.66:51821?address=%7BWG_IP_PREMIUM%7D&peer_pubkey=Q%2FLzkE9Pwr2N3vjH9b5S6V+ko3t1mDf3KUfkMunfkUM%3D&dns=1.1.1.1#CapVPN",
+     "scheme": "wireguard",
+     "host": "212.227.235.66",
+     "port": 51821,
+     "userinfo": "REDACTED",
+     "query": {
+      "address": "{WG_IP_PREMIUM}",
+      "peer_pubkey": "Q/LzkE9Pwr2N3vjH9b5S6V ko3t1mDf3KUfkMunfkUM=",
+      "dns": "1.1.1.1"
+     }
+    },
+    "hysteria2": {
+     "proto": "hysteria2",
+     "raw": "hysteria2://REDACTED@212.227.235.66:8444?mport=21000-21199%2C33000-33199&obfs=salamander&obfs-password=REDACTED&sni=vpn.local&insecure=1#CapVPN",
+     "scheme": "hysteria2",
+     "host": "212.227.235.66",
+     "port": 8444,
+     "userinfo": "REDACTED",
+     "query": {
+      "mport": "21000-21199,33000-33199",
+      "obfs": "salamander",
+      "obfs-password": "REDACTED",
+      "sni": "vpn.local",
+      "insecure": "1"
+     }
+    },
+    "vless": {
+     "proto": "vless",
+     "raw": "vless://REDACTED@212.227.235.66:2053?encryption=none&security=reality&sni=www.apple.com&fp=chrome&pbk=REDACTED&sid=REDACTED&type=tcp#CapVPN",
+     "scheme": "vless",
+     "host": "212.227.235.66",
+     "port": 2053,
+     "userinfo": "REDACTED",
+     "query": {
+      "encryption": "none",
+      "security": "reality",
+      "sni": "www.apple.com",
+      "fp": "chrome",
+      "pbk": "REDACTED",
+      "sid": "REDACTED",
+      "type": "tcp"
+     }
+    }
+   }
+  },
+  {
+   "server_id": "1203",
+   "server_name": "UK-1",
+   "location_id": "116",
+   "location_name": "United Kingdom A41",
+   "tier": "premium",
+   "country": "UK",
+   "ip": "51.89.194.151",
+   "is_online": "1",
+   "port_open": "1",
+   "health_score": "81.216",
+   "bandwidth_mbps": "224.56",
+   "cpu_pct": "7.00",
+   "ram_pct": "9.05",
+   "last_health_at": "2026-10-28 21:09:03",
+   "protocol_type": "wireguard",
+   "protocols": {
+    "wireguard": {
+     "proto": "wireguard",
+     "raw": "wireguard://REDACTED@51.89.194.151:51821?address=%7BWG_IP_PREMIUM%7D&peer_pubkey=IOk1fFze%2FwDQajFzUnxytaR8xW9kHuNCVgx%2FPEDgulE%3D&dns=1.1.1.1#CapVPN",
+     "scheme": "wireguard",
+     "host": "51.89.194.151",
+     "port": 51821,
+     "userinfo": "REDACTED",
+     "query": {
+      "address": "{WG_IP_PREMIUM}",
+      "peer_pubkey": "IOk1fFze/wDQajFzUnxytaR8xW9kHuNCVgx/PEDgulE=",
+      "dns": "1.1.1.1"
+     }
+    },
+    "hysteria2": {
+     "proto": "hysteria2",
+     "raw": "hysteria2://REDACTED@51.89.194.151:8444?mport=21000-21199%2C33000-33199&obfs=salamander&obfs-password=REDACTED&sni=vpn.local&insecure=1#CapVPN",
+     "scheme": "hysteria2",
+     "host": "51.89.194.151",
+     "port": 8444,
+     "userinfo": "REDACTED",
+     "query": {
+      "mport": "21000-21199,33000-33199",
+      "obfs": "salamander",
+      "obfs-password": "REDACTED",
+      "sni": "vpn.local",
+      "insecure": "1"
+     }
+    },
+    "vless": {
+     "proto": "vless",
+     "raw": "vless://REDACTED@51.89.194.151:2053?encryption=none&security=reality&sni=www.apple.com&fp=chrome&pbk=REDACTED&sid=REDACTED&type=tcp#CapVPN",
+     "scheme": "vless",
+     "host": "51.89.194.151",
+     "port": 2053,
+     "userinfo": "REDACTED",
+     "query": {
+      "encryption": "none",
+      "security": "reality",
+      "sni": "www.apple.com",
+      "fp": "chrome",
+      "pbk": "REDACTED",
+      "sid": "REDACTED",
+      "type": "tcp"
+     }
+    }
+   }
+  },
+  {
+   "server_id": "1224",
+   "server_name": "SG-1",
+   "location_id": "48",
+   "location_name": "Singapore A42",
+   "tier": "premium",
+   "country": "SG",
+   "ip": "45.132.75.213",
+   "is_online": "1",
+   "port_open": "1",
+   "health_score": "95.240",
+   "bandwidth_mbps": "6.43",
+   "cpu_pct": "6.32",
+   "ram_pct": "6.07",
+   "last_health_at": "2026-10-28 21:09:03",
+   "protocol_type": "wireguard",
+   "protocols": {
+    "wireguard": {
+     "proto": "wireguard",
+     "raw": "wireguard://REDACTED@45.132.75.213:51821?address=%7BWG_IP_PREMIUM%7D&peer_pubkey=z2BeLYHRGBTwjcXiqgLIuoLnevPoMl0xZBwluSyOjT4%3D&dns=1.1.1.1#CapVPN",
+     "scheme": "wireguard",
+     "host": "45.132.75.213",
+     "port": 51821,
+     "userinfo": "REDACTED",
+     "query": {
+      "address": "{WG_IP_PREMIUM}",
+      "peer_pubkey": "z2BeLYHRGBTwjcXiqgLIuoLnevPoMl0xZBwluSyOjT4=",
+      "dns": "1.1.1.1"
+     }
+    },
+    "hysteria2": {
+     "proto": "hysteria2",
+     "raw": "hysteria2://REDACTED@45.132.75.213:8444?mport=21000-21199%2C33000-33199&obfs=salamander&obfs-password=REDACTED&sni=vpn.local&insecure=1#CapVPN",
+     "scheme": "hysteria2",
+     "host": "45.132.75.213",
+     "port": 8444,
+     "userinfo": "REDACTED",
+     "query": {
+      "mport": "21000-21199,33000-33199",
+      "obfs": "salamander",
+      "obfs-password": "REDACTED",
+      "sni": "vpn.local",
+      "insecure": "1"
+     }
+    },
+    "vless": {
+     "proto": "vless",
+     "raw": "vless://REDACTED@45.132.75.213:2053?encryption=none&security=reality&sni=www.cloudflare.com&fp=chrome&pbk=REDACTED&sid=REDACTED&type=tcp#CapVPN",
+     "scheme": "vless",
+     "host": "45.132.75.213",
+     "port": 2053,
+     "userinfo": "REDACTED",
+     "query": {
+      "encryption": "none",
+      "security": "reality",
+      "sni": "www.cloudflare.com",
+      "fp": "chrome",
+      "pbk": "REDACTED",
+      "sid": "REDACTED",
+      "type": "tcp"
+     }
+    }
+   }
+  },
+  {
+   "server_id": "1164",
+   "server_name": "PL-1",
+   "location_id": "74",
+   "location_name": "Poland",
+   "tier": "premium",
+   "country": "PL",
+   "ip": "54.37.136.194",
+   "is_online": "1",
+   "port_open": "1",
+   "health_score": "43.294",
+   "bandwidth_mbps": "359.16",
+   "cpu_pct": "56.86",
+   "ram_pct": "33.63",
+   "last_health_at": "2026-10-28 21:09:03",
+   "protocol_type": "wireguard",
+   "protocols": {
+    "wireguard": {
+     "proto": "wireguard",
+     "raw": "wireguard://REDACTED@54.37.136.194:51821?address=%7BWG_IP_PREMIUM%7D&peer_pubkey=XrM%2FWVJZeTIQIYz0gYXSOYqu6qY0xWCvXkNnkaDHUSE%3D&dns=1.1.1.1#CapVPN",
+     "scheme": "wireguard",
+     "host": "54.37.136.194",
+     "port": 51821,
+     "userinfo": "REDACTED",
+     "query": {
+      "address": "{WG_IP_PREMIUM}",
+      "peer_pubkey": "XrM/WVJZeTIQIYz0gYXSOYqu6qY0xWCvXkNnkaDHUSE=",
+      "dns": "1.1.1.1"
+     }
+    },
+    "hysteria2": {
+     "proto": "hysteria2",
+     "raw": "hysteria2://REDACTED@54.37.136.194:8444?mport=21000-21199%2C33000-33199&obfs=salamander&obfs-password=REDACTED&sni=vpn.local&insecure=1#CapVPN",
+     "scheme": "hysteria2",
+     "host": "54.37.136.194",
+     "port": 8444,
+     "userinfo": "REDACTED",
+     "query": {
+      "mport": "21000-21199,33000-33199",
+      "obfs": "salamander",
+      "obfs-password": "REDACTED",
+      "sni": "vpn.local",
+      "insecure": "1"
+     }
+    },
+    "vless": {
+     "proto": "vless",
+     "raw": "vless://REDACTED@54.37.136.194:2053?encryption=none&security=reality&sni=www.cloudflare.com&fp=chrome&pbk=REDACTED&sid=REDACTED&type=tcp#CapVPN",
+     "scheme": "vless",
+     "host": "54.37.136.194",
+     "port": 2053,
+     "userinfo": "REDACTED",
+     "query": {
+      "encryption": "none",
+      "security": "reality",
+      "sni": "www.cloudflare.com",
+      "fp": "chrome",
+      "pbk": "REDACTED",
+      "sid": "REDACTED",
+      "type": "tcp"
+     }
+    }
+   }
+  },
+  {
+   "server_id": "1185",
+   "server_name": "KR-1",
+   "location_id": "113",
+   "location_name": "South Korea",
+   "tier": "premium",
+   "country": "KR",
+   "ip": "151.245.106.49",
+   "is_online": "1",
+   "port_open": "1",
+   "health_score": "96.819",
+   "bandwidth_mbps": "1.63",
+   "cpu_pct": "4.95",
+   "ram_pct": "3.04",
+   "last_health_at": "2026-10-28 21:09:03",
+   "protocol_type": "wireguard",
+   "protocols": {
+    "wireguard": {
+     "proto": "wireguard",
+     "raw": "wireguard://REDACTED@151.245.106.49:51821?address=%7BWG_IP_PREMIUM%7D&peer_pubkey=RAyXsk2K3d9JMyDKhwKch+PFD%2F3iv62XXljnqcxupw0%3D&dns=1.1.1.1#CapVPN",
+     "scheme": "wireguard",
+     "host": "151.245.106.49",
+     "port": 51821,
+     "userinfo": "REDACTED",
+     "query": {
+      "address": "{WG_IP_PREMIUM}",
+      "peer_pubkey": "RAyXsk2K3d9JMyDKhwKch PFD/3iv62XXljnqcxupw0=",
+      "dns": "1.1.1.1"
+     }
+    },
+    "hysteria2": {
+     "proto": "hysteria2",
+     "raw": "hysteria2://REDACTED@151.245.106.49:8444?mport=21000-21199%2C33000-33199&obfs=salamander&obfs-password=REDACTED&sni=vpn.local&insecure=1#CapVPN",
+     "scheme": "hysteria2",
+     "host": "151.245.106.49",
+     "port": 8444,
+     "userinfo": "REDACTED",
+     "query": {
+      "mport": "21000-21199,33000-33199",
+      "obfs": "salamander",
+      "obfs-password": "REDACTED",
+      "sni": "vpn.local",
+      "insecure": "1"
+     }
+    },
+    "vless": {
+     "proto": "vless",
+     "raw": "vless://REDACTED@151.245.106.49:2053?encryption=none&security=reality&sni=www.cloudflare.com&fp=chrome&pbk=REDACTED&sid=REDACTED&type=tcp#CapVPN",
+     "scheme": "vless",
+     "host": "151.245.106.49",
+     "port": 2053,
+     "userinfo": "REDACTED",
+     "query": {
+      "encryption": "none",
+      "security": "reality",
+      "sni": "www.cloudflare.com",
+      "fp": "chrome",
+      "pbk": "REDACTED",
+      "sid": "REDACTED",
+      "type": "tcp"
+     }
+    }
+   }
+  },
+  {
+   "server_id": "873",
+   "server_name": "IT-1",
+   "location_id": "115",
+   "location_name": "Italy",
+   "tier": "premium",
+   "country": "IT",
+   "ip": "57.131.38.163",
+   "is_online": "1",
+   "port_open": "1",
+   "health_score": "60.071",
+   "bandwidth_mbps": "269.58",
+   "cpu_pct": "39.80",
+   "ram_pct": "19.27",
+   "last_health_at": "2026-10-28 21:09:03",
+   "protocol_type": "wireguard",
+   "protocols": {
+    "wireguard": {
+     "proto": "wireguard",
+     "raw": "wireguard://REDACTED@57.131.38.163:51821?address=%7BWG_IP_PREMIUM%7D&peer_pubkey=jTseChIWsSddOPwLKgXDumEBQS00kk2ZwoQSvTPaeWg%3D&dns=1.1.1.1#CapVPN",
+     "scheme": "wireguard",
+     "host": "57.131.38.163",
+     "port": 51821,
+     "userinfo": "REDACTED",
+     "query": {
+      "address": "{WG_IP_PREMIUM}",
+      "peer_pubkey": "jTseChIWsSddOPwLKgXDumEBQS00kk2ZwoQSvTPaeWg=",
+      "dns": "1.1.1.1"
+     }
+    },
+    "hysteria2": {
+     "proto": "hysteria2",
+     "raw": "hysteria2://REDACTED@57.131.38.163:8444?mport=21000-21199%2C33000-33199&obfs=salamander&obfs-password=REDACTED&sni=vpn.local&insecure=1#CapVPN",
+     "scheme": "hysteria2",
+     "host": "57.131.38.163",
+     "port": 8444,
+     "userinfo": "REDACTED",
+     "query": {
+      "mport": "21000-21199,33000-33199",
+      "obfs": "salamander",
+      "obfs-password": "REDACTED",
+      "sni": "vpn.local",
+      "insecure": "1"
+     }
+    },
+    "vless": {
+     "proto": "vless",
+     "raw": "vless://REDACTED@57.131.38.163:2053?encryption=none&security=reality&sni=www.apple.com&fp=chrome&pbk=REDACTED&sid=REDACTED&type=tcp#CapVPN",
+     "scheme": "vless",
+     "host": "57.131.38.163",
+     "port": 2053,
+     "userinfo": "REDACTED",
+     "query": {
+      "encryption": "none",
+      "security": "reality",
+      "sni": "www.apple.com",
+      "fp": "chrome",
+      "pbk": "REDACTED",
+      "sid": "REDACTED",
+      "type": "tcp"
+     }
+    }
+   }
+  },
+  {
+   "server_id": "1137",
+   "server_name": "DE-1",
+   "location_id": "118",
+   "location_name": "Germany A42",
+   "tier": "premium",
+   "country": "DE",
+   "ip": "162.55.242.208",
+   "is_online": "0",
+   "port_open": "0",
+   "health_score": "0.000",
+   "bandwidth_mbps": "383.97",
+   "cpu_pct": "57.84",
+   "ram_pct": "2.72",
+   "last_health_at": "2026-10-27 17:15:33",
+   "protocol_type": "wireguard",
+   "protocols": {
+    "wireguard": {
+     "proto": "wireguard",
+     "raw": "wireguard://REDACTED@162.55.242.208:51821?address=%7BWG_IP_PREMIUM%7D&peer_pubkey=05fv+Aq4T4KvWNj0b%2FZGI7b4lRX+J+EqPBJE+6tgxXE%3D&dns=1.1.1.1#CapVPN",
+     "scheme": "wireguard",
+     "host": "162.55.242.208",
+     "port": 51821,
+     "userinfo": "REDACTED",
+     "query": {
+      "address": "{WG_IP_PREMIUM}",
+      "peer_pubkey": "05fv Aq4T4KvWNj0b/ZGI7b4lRX J EqPBJE 6tgxXE=",
+      "dns": "1.1.1.1"
+     }
+    },
+    "hysteria2": {
+     "proto": "hysteria2",
+     "raw": "hysteria2://REDACTED@162.55.242.208:8444?mport=21000-21199%2C33000-33199&obfs=salamander&obfs-password=REDACTED&sni=vpn.local&insecure=1#CapVPN",
+     "scheme": "hysteria2",
+     "host": "162.55.242.208",
+     "port": 8444,
+     "userinfo": "REDACTED",
+     "query": {
+      "mport": "21000-21199,33000-33199",
+      "obfs": "salamander",
+      "obfs-password": "REDACTED",
+      "sni": "vpn.local",
+      "insecure": "1"
+     }
+    },
+    "vless": {
+     "proto": "vless",
+     "raw": "vless://REDACTED@162.55.242.208:2053?encryption=none&security=reality&sni=www.cloudflare.com&fp=chrome&pbk=REDACTED&sid=REDACTED&type=tcp#CapVPN",
+     "scheme": "vless",
+     "host": "162.55.242.208",
+     "port": 2053,
+     "userinfo": "REDACTED",
+     "query": {
+      "encryption": "none",
+      "security": "reality",
+      "sni": "www.cloudflare.com",
+      "fp": "chrome",
+      "pbk": "REDACTED",
+      "sid": "REDACTED",
+      "type": "tcp"
+     }
+    }
+   }
+  },
+  {
+   "server_id": "1227",
+   "server_name": "SG-1",
+   "location_id": "119",
+   "location_name": "Singapore",
+   "tier": "premium",
+   "country": "SG",
+   "ip": "45.132.75.213",
+   "is_online": "1",
+   "port_open": "1",
+   "health_score": "95.240",
+   "bandwidth_mbps": "6.43",
+   "cpu_pct": "6.32",
+   "ram_pct": "6.07",
+   "last_health_at": "2026-10-28 21:09:03",
+   "protocol_type": "wireguard",
+   "protocols": {
+    "wireguard": {
+     "proto": "wireguard",
+     "raw": "wireguard://REDACTED@45.132.75.213:51821?address=%7BWG_IP_PREMIUM%7D&peer_pubkey=z2BeLYHRGBTwjcXiqgLIuoLnevPoMl0xZBwluSyOjT4%3D&dns=1.1.1.1#CapVPN",
+     "scheme": "wireguard",
+     "host": "45.132.75.213",
+     "port": 51821,
+     "userinfo": "REDACTED",
+     "query": {
+      "address": "{WG_IP_PREMIUM}",
+      "peer_pubkey": "z2BeLYHRGBTwjcXiqgLIuoLnevPoMl0xZBwluSyOjT4=",
+      "dns": "1.1.1.1"
+     }
+    },
+    "hysteria2": {
+     "proto": "hysteria2",
+     "raw": "hysteria2://REDACTED@45.132.75.213:8444?mport=21000-21199%2C33000-33199&obfs=salamander&obfs-password=REDACTED&sni=vpn.local&insecure=1#CapVPN",
+     "scheme": "hysteria2",
+     "host": "45.132.75.213",
+     "port": 8444,
+     "userinfo": "REDACTED",
+     "query": {
+      "mport": "21000-21199,33000-33199",
+      "obfs": "salamander",
+      "obfs-password": "REDACTED",
+      "sni": "vpn.local",
+      "insecure": "1"
+     }
+    },
+    "vless": {
+     "proto": "vless",
+     "raw": "vless://REDACTED@45.132.75.213:2053?encryption=none&security=reality&sni=www.cloudflare.com&fp=chrome&pbk=REDACTED&sid=REDACTED&type=tcp#CapVPN",
+     "scheme": "vless",
+     "host": "45.132.75.213",
+     "port": 2053,
+     "userinfo": "REDACTED",
+     "query": {
+      "encryption": "none",
+      "security": "reality",
+      "sni": "www.cloudflare.com",
+      "fp": "chrome",
+      "pbk": "REDACTED",
+      "sid": "REDACTED",
+      "type": "tcp"
+     }
+    }
+   }
+  },
+  {
+   "server_id": "1232",
+   "server_name": "Usa-2",
+   "location_id": "44",
+   "location_name": "United States",
+   "tier": "premium",
+   "country": null,
+   "ip": "212.227.235.66",
+   "is_online": "1",
+   "port_open": "1",
+   "health_score": "89.793",
+   "bandwidth_mbps": "38.74",
+   "cpu_pct": "11.65",
+   "ram_pct": "10.29",
+   "last_health_at": "2026-10-28 21:09:03",
+   "protocol_type": "multi",
+   "protocols": {
+    "wireguard": {
+     "proto": "wireguard",
+     "raw": "wireguard://REDACTED@212.227.235.66:51820?address=%7BWG_IP%7D&peer_pubkey=yh2Bohb99ZJCSa2dFIjC+x3EE7%2FgxasDQ6CXNgFyYTE%3D&dns=1.1.1.1#CapVPN",
+     "scheme": "wireguard",
+     "host": "212.227.235.66",
+     "port": 51820,
+     "userinfo": "REDACTED",
+     "query": {
+      "address": "{WG_IP}",
+      "peer_pubkey": "yh2Bohb99ZJCSa2dFIjC x3EE7/gxasDQ6CXNgFyYTE=",
+      "dns": "1.1.1.1"
+     }
+    },
+    "hysteria2": {
+     "proto": "hysteria2",
+     "raw": "hysteria2://REDACTED@212.227.235.66:8444?mport=21000-21199%2C33000-33199&obfs=salamander&obfs-password=REDACTED&sni=vpn.local&insecure=1#CapVPN",
+     "scheme": "hysteria2",
+     "host": "212.227.235.66",
+     "port": 8444,
+     "userinfo": "REDACTED",
+     "query": {
+      "mport": "21000-21199,33000-33199",
+      "obfs": "salamander",
+      "obfs-password": "REDACTED",
+      "sni": "vpn.local",
+      "insecure": "1"
+     }
+    }
+   }
+  },
+  {
+   "server_id": "1237",
+   "server_name": "USA-1",
+   "location_id": "44",
+   "location_name": "United States",
+   "tier": "premium",
+   "country": "US",
+   "ip": "74.208.55.79",
+   "is_online": "1",
+   "port_open": "1",
+   "health_score": "95.312",
+   "bandwidth_mbps": "0.00",
+   "cpu_pct": "0.00",
+   "ram_pct": "23.44",
+   "last_health_at": "2026-10-28 21:09:02",
+   "protocol_type": "wireguard",
+   "protocols": {
+    "wireguard": {
+     "proto": "wireguard",
+     "raw": "wireguard://REDACTED@74.208.55.79:51821?address=%7BWG_IP_PREMIUM%7D&peer_pubkey=j+vjCn911G03AM8V4I7WkzhniU36xm50rrS3blTpKWE%3D&dns=1.1.1.1#CapVPN",
+     "scheme": "wireguard",
+     "host": "74.208.55.79",
+     "port": 51821,
+     "userinfo": "REDACTED",
+     "query": {
+      "address": "{WG_IP_PREMIUM}",
+      "peer_pubkey": "j vjCn911G03AM8V4I7WkzhniU36xm50rrS3blTpKWE=",
+      "dns": "1.1.1.1"
+     }
+    },
+    "hysteria2": {
+     "proto": "hysteria2",
+     "raw": "hysteria2://REDACTED@74.208.55.79:8444?mport=21000-21199%2C33000-33199&obfs=salamander&obfs-password=REDACTED&sni=vpn.local&insecure=1#CapVPN",
+     "scheme": "hysteria2",
+     "host": "74.208.55.79",
+     "port": 8444,
+     "userinfo": "REDACTED",
+     "query": {
+      "mport": "21000-21199,33000-33199",
+      "obfs": "salamander",
+      "obfs-password": "REDACTED",
+      "sni": "vpn.local",
+      "insecure": "1"
+     }
+    },
+    "vless": {
+     "proto": "vless",
+     "raw": "vless://REDACTED@74.208.55.79:2053?encryption=none&security=reality&sni=www.apple.com&fp=chrome&pbk=REDACTED&sid=REDACTED&type=tcp#CapVPN",
+     "scheme": "vless",
+     "host": "74.208.55.79",
+     "port": 2053,
+     "userinfo": "REDACTED",
+     "query": {
+      "encryption": "none",
+      "security": "reality",
+      "sni": "www.apple.com",
+      "fp": "chrome",
+      "pbk": "REDACTED",
+      "sid": "REDACTED",
+      "type": "tcp"
+     }
+    }
+   }
+  },
+  {
+   "server_id": "1125",
+   "server_name": "CA-1",
+   "location_id": "56",
+   "location_name": "Canada 1Gbps",
+   "tier": "premium",
+   "country": "CA",
+   "ip": "66.70.179.198",
+   "is_online": "1",
+   "port_open": "1",
+   "health_score": "67.040",
+   "bandwidth_mbps": "342.17",
+   "cpu_pct": "22.00",
+   "ram_pct": "7.15",
+   "last_health_at": "2026-10-28 21:09:03",
+   "protocol_type": "wireguard",
+   "protocols": {
+    "wireguard": {
+     "proto": "wireguard",
+     "raw": "wireguard://REDACTED@66.70.179.198:51821?address=%7BWG_IP_PREMIUM%7D&peer_pubkey=eY+Etp5m9x+EctqriFWrEbX22b2T9Gtj3FNvxNU3ojc%3D&dns=1.1.1.1#CapVPN",
+     "scheme": "wireguard",
+     "host": "66.70.179.198",
+     "port": 51821,
+     "userinfo": "REDACTED",
+     "query": {
+      "address": "{WG_IP_PREMIUM}",
+      "peer_pubkey": "eY Etp5m9x EctqriFWrEbX22b2T9Gtj3FNvxNU3ojc=",
+      "dns": "1.1.1.1"
+     }
+    },
+    "hysteria2": {
+     "proto": "hysteria2",
+     "raw": "hysteria2://REDACTED@66.70.179.198:8444?mport=21000-21199%2C33000-33199&obfs=salamander&obfs-password=REDACTED&sni=vpn.local&insecure=1#CapVPN",
+     "scheme": "hysteria2",
+     "host": "66.70.179.198",
+     "port": 8444,
+     "userinfo": "REDACTED",
+     "query": {
+      "mport": "21000-21199,33000-33199",
+      "obfs": "salamander",
+      "obfs-password": "REDACTED",
+      "sni": "vpn.local",
+      "insecure": "1"
+     }
+    },
+    "vless": {
+     "proto": "vless",
+     "raw": "vless://REDACTED@66.70.179.198:2053?encryption=none&security=reality&sni=www.cloudflare.com&fp=chrome&pbk=REDACTED&sid=REDACTED&type=tcp#CapVPN",
+     "scheme": "vless",
+     "host": "66.70.179.198",
+     "port": 2053,
+     "userinfo": "REDACTED",
+     "query": {
+      "encryption": "none",
+      "security": "reality",
+      "sni": "www.cloudflare.com",
+      "fp": "chrome",
+      "pbk": "REDACTED",
+      "sid": "REDACTED",
+      "type": "tcp"
+     }
+    }
+   }
+  },
+  {
+   "server_id": "1119",
+   "server_name": "FR-1",
+   "location_id": "93",
+   "location_name": "France",
+   "tier": "premium",
+   "country": "FR",
+   "ip": "51.77.217.70",
+   "is_online": "1",
+   "port_open": "1",
+   "health_score": "80.469",
+   "bandwidth_mbps": "159.02",
+   "cpu_pct": "18.18",
+   "ram_pct": "4.50",
+   "last_health_at": "2026-10-28 21:09:02",
+   "protocol_type": "wireguard",
+   "protocols": {
+    "wireguard": {
+     "proto": "wireguard",
+     "raw": "wireguard://REDACTED@51.77.217.70:51821?address=%7BWG_IP_PREMIUM%7D&peer_pubkey=CE41S2kNd2wxk2Kas8o0B2fcrGxdOU31XlnKwwQbqi0%3D&dns=1.1.1.1#CapVPN",
+     "scheme": "wireguard",
+     "host": "51.77.217.70",
+     "port": 51821,
+     "userinfo": "REDACTED",
+     "query": {
+      "address": "{WG_IP_PREMIUM}",
+      "peer_pubkey": "CE41S2kNd2wxk2Kas8o0B2fcrGxdOU31XlnKwwQbqi0=",
+      "dns": "1.1.1.1"
+     }
+    },
+    "hysteria2": {
+     "proto": "hysteria2",
+     "raw": "hysteria2://REDACTED@51.77.217.70:8444?mport=21000-21199%2C33000-33199&obfs=salamander&obfs-password=REDACTED&sni=vpn.local&insecure=1#CapVPN",
+     "scheme": "hysteria2",
+     "host": "51.77.217.70",
+     "port": 8444,
+     "userinfo": "REDACTED",
+     "query": {
+      "mport": "21000-21199,33000-33199",
+      "obfs": "salamander",
+      "obfs-password": "REDACTED",
+      "sni": "vpn.local",
+      "insecure": "1"
+     }
+    },
+    "vless": {
+     "proto": "vless",
+     "raw": "vless://REDACTED@51.77.217.70:2053?encryption=none&security=reality&sni=www.apple.com&fp=chrome&pbk=REDACTED&sid=REDACTED&type=tcp#CapVPN",
+     "scheme": "vless",
+     "host": "51.77.217.70",
+     "port": 2053,
+     "userinfo": "REDACTED",
+     "query": {
+      "encryption": "none",
+      "security": "reality",
+      "sni": "www.apple.com",
+      "fp": "chrome",
+      "pbk": "REDACTED",
+      "sid": "REDACTED",
+      "type": "tcp"
+     }
+    }
+   }
+  },
+  {
+   "server_id": "1176",
+   "server_name": "JP-1",
+   "location_id": "45",
+   "location_name": "Japan",
+   "tier": "premium",
+   "country": "JP",
+   "ip": "46.250.250.149",
+   "is_online": "0",
+   "port_open": "0",
+   "health_score": "0.000",
+   "bandwidth_mbps": "10.89",
+   "cpu_pct": "22.64",
+   "ram_pct": "5.48",
+   "last_health_at": "2026-10-28 09:28:33",
+   "protocol_type": "wireguard",
+   "protocols": {
+    "wireguard": {
+     "proto": "wireguard",
+     "raw": "wireguard://REDACTED@46.250.250.149:51821?address=%7BWG_IP_PREMIUM%7D&peer_pubkey=yAtbaNwbkOQ6PiKZflLGrqE2IPpjn+R8I1pOGU+WDQM%3D&dns=1.1.1.1#CapVPN",
+     "scheme": "wireguard",
+     "host": "46.250.250.149",
+     "port": 51821,
+     "userinfo": "REDACTED",
+     "query": {
+      "address": "{WG_IP_PREMIUM}",
+      "peer_pubkey": "yAtbaNwbkOQ6PiKZflLGrqE2IPpjn R8I1pOGU WDQM=",
+      "dns": "1.1.1.1"
+     }
+    },
+    "hysteria2": {
+     "proto": "hysteria2",
+     "raw": "hysteria2://REDACTED@46.250.250.149:8444?mport=21000-21199%2C33000-33199&obfs=salamander&obfs-password=REDACTED&sni=vpn.local&insecure=1#CapVPN",
+     "scheme": "hysteria2",
+     "host": "46.250.250.149",
+     "port": 8444,
+     "userinfo": "REDACTED",
+     "query": {
+      "mport": "21000-21199,33000-33199",
+      "obfs": "salamander",
+      "obfs-password": "REDACTED",
+      "sni": "vpn.local",
+      "insecure": "1"
+     }
+    },
+    "vless": {
+     "proto": "vless",
+     "raw": "vless://REDACTED@46.250.250.149:2053?encryption=none&security=reality&sni=www.apple.com&fp=chrome&pbk=REDACTED&sid=REDACTED&type=tcp#CapVPN",
+     "scheme": "vless",
+     "host": "46.250.250.149",
+     "port": 2053,
+     "userinfo": "REDACTED",
+     "query": {
+      "encryption": "none",
+      "security": "reality",
+      "sni": "www.apple.com",
+      "fp": "chrome",
+      "pbk": "REDACTED",
+      "sid": "REDACTED",
+      "type": "tcp"
+     }
+    }
+   }
+  },
+  {
+   "server_id": "1206",
+   "server_name": "UK-1",
+   "location_id": "47",
+   "location_name": "United Kingdom",
+   "tier": "premium",
+   "country": "UK",
+   "ip": "51.89.194.151",
+   "is_online": "1",
+   "port_open": "1",
+   "health_score": "81.216",
+   "bandwidth_mbps": "224.56",
+   "cpu_pct": "7.00",
+   "ram_pct": "9.05",
+   "last_health_at": "2026-10-28 21:09:03",
+   "protocol_type": "wireguard",
+   "protocols": {
+    "wireguard": {
+     "proto": "wireguard",
+     "raw": "wireguard://REDACTED@51.89.194.151:51821?address=%7BWG_IP_PREMIUM%7D&peer_pubkey=IOk1fFze%2FwDQajFzUnxytaR8xW9kHuNCVgx%2FPEDgulE%3D&dns=1.1.1.1#CapVPN",
+     "scheme": "wireguard",
+     "host": "51.89.194.151",
+     "port": 51821,
+     "userinfo": "REDACTED",
+     "query": {
+      "address": "{WG_IP_PREMIUM}",
+      "peer_pubkey": "IOk1fFze/wDQajFzUnxytaR8xW9kHuNCVgx/PEDgulE=",
+      "dns": "1.1.1.1"
+     }
+    },
+    "hysteria2": {
+     "proto": "hysteria2",
+     "raw": "hysteria2://REDACTED@51.89.194.151:8444?mport=21000-21199%2C33000-33199&obfs=salamander&obfs-password=REDACTED&sni=vpn.local&insecure=1#CapVPN",
+     "scheme": "hysteria2",
+     "host": "51.89.194.151",
+     "port": 8444,
+     "userinfo": "REDACTED",
+     "query": {
+      "mport": "21000-21199,33000-33199",
+      "obfs": "salamander",
+      "obfs-password": "REDACTED",
+      "sni": "vpn.local",
+      "insecure": "1"
+     }
+    },
+    "vless": {
+     "proto": "vless",
+     "raw": "vless://REDACTED@51.89.194.151:2053?encryption=none&security=reality&sni=www.apple.com&fp=chrome&pbk=REDACTED&sid=REDACTED&type=tcp#CapVPN",
+     "scheme": "vless",
+     "host": "51.89.194.151",
+     "port": 2053,
+     "userinfo": "REDACTED",
+     "query": {
+      "encryption": "none",
+      "security": "reality",
+      "sni": "www.apple.com",
+      "fp": "chrome",
+      "pbk": "REDACTED",
+      "sid": "REDACTED",
+      "type": "tcp"
+     }
+    }
+   }
+  },
+  {
+   "server_id": "153",
+   "server_name": "Br-1",
+   "location_id": "59",
+   "location_name": "Brazil",
+   "tier": "premium",
+   "country": null,
+   "ip": "213.159.66.59",
+   "is_online": "0",
+   "port_open": "0",
+   "health_score": "0.000",
+   "bandwidth_mbps": "0.17",
+   "cpu_pct": "1.00",
+   "ram_pct": "8.35",
+   "last_health_at": "2026-04-21 00:15:35",
+   "protocol_type": "multi",
+   "protocols": {
+    "vless": {
+     "proto": "vless",
+     "raw": "vless://REDACTED@213.159.66.59:443?encryption=none&security=reality&sni=www.apple.com&fp=safari&pbk=REDACTED&sid=REDACTED&type=grpc&serviceName=f7082195de335d788dcbda13#REALITY-gRPC-213.159.66.59",
+     "scheme": "vless",
+     "host": "213.159.66.59",
+     "port": 443,
+     "userinfo": "REDACTED",
+     "query": {
+      "encryption": "none",
+      "security": "reality",
+      "sni": "www.apple.com",
+      "fp": "safari",
+      "pbk": "REDACTED",
+      "sid": "REDACTED",
+      "type": "grpc",
+      "serviceName": "f7082195de335d788dcbda13"
+     }
+    }
+   }
+  },
+  {
+   "server_id": "1212",
+   "server_name": "NL-1",
+   "location_id": "62",
+   "location_name": "Netherlands",
+   "tier": "premium",
+   "country": "NL",
+   "ip": "51.15.16.68",
+   "is_online": "1",
+   "port_open": "1",
+   "health_score": "79.332",
+   "bandwidth_mbps": "164.95",
+   "cpu_pct": "19.79",
+   "ram_pct": "4.38",
+   "last_health_at": "2026-10-28 21:09:04",
+   "protocol_type": "wireguard",
+   "protocols": {
+    "wireguard": {
+     "proto": "wireguard",
+     "raw": "wireguard://REDACTED@51.15.16.68:51821?address=%7BWG_IP_PREMIUM%7D&peer_pubkey=34E9VpLM3F1QLMVnum87%2FDk2camNBHCLsMaWZtx5BUg%3D&dns=1.1.1.1#CapVPN",
+     "scheme": "wireguard",
+     "host": "51.15.16.68",
+     "port": 51821,
+     "userinfo": "REDACTED",
+     "query": {
+      "address": "{WG_IP_PREMIUM}",
+      "peer_pubkey": "34E9VpLM3F1QLMVnum87/Dk2camNBHCLsMaWZtx5BUg=",
+      "dns": "1.1.1.1"
+     }
+    },
+    "hysteria2": {
+     "proto": "hysteria2",
+     "raw": "hysteria2://REDACTED@51.15.16.68:8444?mport=21000-21199%2C33000-33199&obfs=salamander&obfs-password=REDACTED&sni=vpn.local&insecure=1#CapVPN",
+     "scheme": "hysteria2",
+     "host": "51.15.16.68",
+     "port": 8444,
+     "userinfo": "REDACTED",
+     "query": {
+      "mport": "21000-21199,33000-33199",
+      "obfs": "salamander",
+      "obfs-password": "REDACTED",
+      "sni": "vpn.local",
+      "insecure": "1"
+     }
+    },
+    "vless": {
+     "proto": "vless",
+     "raw": "vless://REDACTED@51.15.16.68:2053?encryption=none&security=reality&sni=www.apple.com&fp=chrome&pbk=REDACTED&sid=REDACTED&type=tcp#CapVPN",
+     "scheme": "vless",
+     "host": "51.15.16.68",
+     "port": 2053,
+     "userinfo": "REDACTED",
+     "query": {
+      "encryption": "none",
+      "security": "reality",
+      "sni": "www.apple.com",
+      "fp": "chrome",
+      "pbk": "REDACTED",
+      "sid": "REDACTED",
+      "type": "tcp"
+     }
+    }
+   }
+  },
+  {
+   "server_id": "1131",
+   "server_name": "DE-1",
+   "location_id": "64",
+   "location_name": "Germany 1Gbps",
+   "tier": "premium",
+   "country": "DE",
+   "ip": "162.55.242.208",
+   "is_online": "0",
+   "port_open": "0",
+   "health_score": "0.000",
+   "bandwidth_mbps": "383.97",
+   "cpu_pct": "57.84",
+   "ram_pct": "2.72",
+   "last_health_at": "2026-10-27 17:15:33",
+   "protocol_type": "wireguard",
+   "protocols": {
+    "wireguard": {
+     "proto": "wireguard",
+     "raw": "wireguard://REDACTED@162.55.242.208:51821?address=%7BWG_IP_PREMIUM%7D&peer_pubkey=05fv+Aq4T4KvWNj0b%2FZGI7b4lRX+J+EqPBJE+6tgxXE%3D&dns=1.1.1.1#CapVPN",
+     "scheme": "wireguard",
+     "host": "162.55.242.208",
+     "port": 51821,
+     "userinfo": "REDACTED",
+     "query": {
+      "address": "{WG_IP_PREMIUM}",
+      "peer_pubkey": "05fv Aq4T4KvWNj0b/ZGI7b4lRX J EqPBJE 6tgxXE=",
+      "dns": "1.1.1.1"
+     }
+    },
+    "hysteria2": {
+     "proto": "hysteria2",
+     "raw": "hysteria2://REDACTED@162.55.242.208:8444?mport=21000-21199%2C33000-33199&obfs=salamander&obfs-password=REDACTED&sni=vpn.local&insecure=1#CapVPN",
+     "scheme": "hysteria2",
+     "host": "162.55.242.208",
+     "port": 8444,
+     "userinfo": "REDACTED",
+     "query": {
+      "mport": "21000-21199,33000-33199",
+      "obfs": "salamander",
+      "obfs-password": "REDACTED",
+      "sni": "vpn.local",
+      "insecure": "1"
+     }
+    },
+    "vless": {
+     "proto": "vless",
+     "raw": "vless://REDACTED@162.55.242.208:2053?encryption=none&security=reality&sni=www.cloudflare.com&fp=chrome&pbk=REDACTED&sid=REDACTED&type=tcp#CapVPN",
+     "scheme": "vless",
+     "host": "162.55.242.208",
+     "port": 2053,
+     "userinfo": "REDACTED",
+     "query": {
+      "encryption": "none",
+      "security": "reality",
+      "sni": "www.cloudflare.com",
+      "fp": "chrome",
+      "pbk": "REDACTED",
+      "sid": "REDACTED",
+      "type": "tcp"
+     }
+    }
+   }
+  },
+  {
+   "server_id": "132",
+   "server_name": "Ch-1",
+   "location_id": "66",
+   "location_name": "Switzerland",
+   "tier": "premium",
+   "country": null,
+   "ip": "66.163.116.238",
+   "is_online": "0",
+   "port_open": "0",
+   "health_score": "0.000",
+   "bandwidth_mbps": "2.96",
+   "cpu_pct": "9.90",
+   "ram_pct": "5.41",
+   "last_health_at": "2026-06-04 07:29:04",
+   "protocol_type": "multi",
+   "protocols": {
+    "hysteria2": {
+     "proto": "hysteria2",
+     "raw": "hysteria2://REDACTED@66.163.116.238:443?mport=20000-50000&obfs=salamander&obfs-password=REDACTED&sni=update.microsoft.com&insecure=1#Switzerland",
+     "scheme": "hysteria2",
+     "host": "66.163.116.238",
+     "port": 443,
+     "userinfo": "REDACTED",
+     "query": {
+      "mport": "20000-50000",
+      "obfs": "salamander",
+      "obfs-password": "REDACTED",
+      "sni": "update.microsoft.com",
+      "insecure": "1"
+     }
+    },
+    "vless": {
+     "proto": "vless",
+     "raw": "vless://REDACTED@66.163.116.238:2053?encryption=none&security=reality&sni=www.microsoft.com&fp=chrome&pbk=REDACTED&sid=REDACTED&type=tcp#Switzerlands",
+     "scheme": "vless",
+     "host": "66.163.116.238",
+     "port": 2053,
+     "userinfo": "REDACTED",
+     "query": {
+      "encryption": "none",
+      "security": "reality",
+      "sni": "www.microsoft.com",
+      "fp": "chrome",
+      "pbk": "REDACTED",
+      "sid": "REDACTED",
+      "type": "tcp"
+     }
+    }
+   }
+  },
+  {
+   "server_id": "180",
+   "server_name": "Ch-3",
+   "location_id": "66",
+   "location_name": "Switzerland",
+   "tier": "premium",
+   "country": null,
+   "ip": "208.69.78.5",
+   "is_online": "0",
+   "port_open": "0",
+   "health_score": "0.000",
+   "bandwidth_mbps": "19.18",
+   "cpu_pct": "24.24",
+   "ram_pct": "10.86",
+   "last_health_at": "2026-04-03 19:41:05",
+   "protocol_type": "multi",
+   "protocols": {
+    "wireguard": {
+     "proto": "wireguard",
+     "raw": "wireguard://REDACTED@208.69.78.5:51820?publickey=Ilxu1bqGD2k%2BHA0lGDl5eXe1jnxGxwH3JUAYYDvXZlk%3D&address=10.10.0.2%2F24&mtu=1420&reserved=0%2C0%2C0#WireGuard-51820",
+     "scheme": "wireguard",
+     "host": "208.69.78.5",
+     "port": 51820,
+     "userinfo": "REDACTED",
+     "query": {
+      "publickey": "Ilxu1bqGD2k+HA0lGDl5eXe1jnxGxwH3JUAYYDvXZlk=",
+      "address": "10.10.0.2/24",
+      "mtu": "1420",
+      "reserved": "0,0,0"
+     }
+    }
+   }
+  },
+  {
+   "server_id": "181",
+   "server_name": "Ch-4",
+   "location_id": "66",
+   "location_name": "Switzerland",
+   "tier": "premium",
+   "country": null,
+   "ip": "208.69.78.142",
+   "is_online": "0",
+   "port_open": "0",
+   "health_score": "0.000",
+   "bandwidth_mbps": "0.00",
+   "cpu_pct": "0.00",
+   "ram_pct": "0.00",
+   "last_health_at": null,
+   "protocol_type": "multi",
+   "protocols": {
+    "vless": {
+     "proto": "vless",
+     "raw": "vless://REDACTED@208.69.78.142:8443?encryption=none&security=reality&sni=www.microsoft.com&fp=safari&pbk=REDACTED&sid=REDACTED&type=tcp&flow=xtls-rprx-vision#Switzerland",
+     "scheme": "vless",
+     "host": "208.69.78.142",
+     "port": 8443,
+     "userinfo": "REDACTED",
+     "query": {
+      "encryption": "none",
+      "security": "reality",
+      "sni": "www.microsoft.com",
+      "fp": "safari",
+      "pbk": "REDACTED",
+      "sid": "REDACTED",
+      "type": "tcp",
+      "flow": "xtls-rprx-vision"
+     }
+    }
+   }
+  },
+  {
+   "server_id": "1221",
+   "server_name": "CH-1",
+   "location_id": "66",
+   "location_name": "Switzerland",
+   "tier": "premium",
+   "country": "CH",
+   "ip": "208.69.78.217",
+   "is_online": "1",
+   "port_open": "1",
+   "health_score": "85.137",
+   "bandwidth_mbps": "4.79",
+   "cpu_pct": "21.00",
+   "ram_pct": "20.38",
+   "last_health_at": "2026-10-28 21:09:03",
+   "protocol_type": "wireguard",
+   "protocols": {
+    "wireguard": {
+     "proto": "wireguard",
+     "raw": "wireguard://REDACTED@208.69.78.217:51821?address=%7BWG_IP_PREMIUM%7D&peer_pubkey=dCaeRpMdzGxjydy5NCg+wXmvvv2taetdR9z%2FASc62w0%3D&dns=1.1.1.1#CapVPN",
+     "scheme": "wireguard",
+     "host": "208.69.78.217",
+     "port": 51821,
+     "userinfo": "REDACTED",
+     "query": {
+      "address": "{WG_IP_PREMIUM}",
+      "peer_pubkey": "dCaeRpMdzGxjydy5NCg wXmvvv2taetdR9z/ASc62w0=",
+      "dns": "1.1.1.1"
+     }
+    },
+    "hysteria2": {
+     "proto": "hysteria2",
+     "raw": "hysteria2://REDACTED@208.69.78.217:8444?mport=21000-21199%2C33000-33199&obfs=salamander&obfs-password=REDACTED&sni=vpn.local&insecure=1#CapVPN",
+     "scheme": "hysteria2",
+     "host": "208.69.78.217",
+     "port": 8444,
+     "userinfo": "REDACTED",
+     "query": {
+      "mport": "21000-21199,33000-33199",
+      "obfs": "salamander",
+      "obfs-password": "REDACTED",
+      "sni": "vpn.local",
+      "insecure": "1"
+     }
+    },
+    "vless": {
+     "proto": "vless",
+     "raw": "vless://REDACTED@208.69.78.217:2053?encryption=none&security=reality&sni=www.apple.com&fp=chrome&pbk=REDACTED&sid=REDACTED&type=tcp#CapVPN",
+     "scheme": "vless",
+     "host": "208.69.78.217",
+     "port": 2053,
+     "userinfo": "REDACTED",
+     "query": {
+      "encryption": "none",
+      "security": "reality",
+      "sni": "www.apple.com",
+      "fp": "chrome",
+      "pbk": "REDACTED",
+      "sid": "REDACTED",
+      "type": "tcp"
+     }
+    }
+   }
+  },
+  {
+   "server_id": "1113",
+   "server_name": "Tr-1",
+   "location_id": "70",
+   "location_name": "Türkiye",
+   "tier": "premium",
+   "country": "TR",
+   "ip": "151.241.226.201",
+   "is_online": "1",
+   "port_open": "1",
+   "health_score": "77.235",
+   "bandwidth_mbps": "26.92",
+   "cpu_pct": "38.38",
+   "ram_pct": "9.80",
+   "last_health_at": "2026-10-28 21:09:04",
+   "protocol_type": "wireguard",
+   "protocols": {
+    "wireguard": {
+     "proto": "wireguard",
+     "raw": "wireguard://REDACTED@151.241.226.201:51821?address=%7BWG_IP_PREMIUM%7D&peer_pubkey=2zTahD7b0y5UDF2t6VVMMt72v0DohGl0AGcH7uzqUwc%3D&dns=1.1.1.1#CapVPN",
+     "scheme": "wireguard",
+     "host": "151.241.226.201",
+     "port": 51821,
+     "userinfo": "REDACTED",
+     "query": {
+      "address": "{WG_IP_PREMIUM}",
+      "peer_pubkey": "2zTahD7b0y5UDF2t6VVMMt72v0DohGl0AGcH7uzqUwc=",
+      "dns": "1.1.1.1"
+     }
+    },
+    "hysteria2": {
+     "proto": "hysteria2",
+     "raw": "hysteria2://REDACTED@151.241.226.201:8444?mport=21000-21199%2C33000-33199&obfs=salamander&obfs-password=REDACTED&sni=vpn.local&insecure=1#CapVPN",
+     "scheme": "hysteria2",
+     "host": "151.241.226.201",
+     "port": 8444,
+     "userinfo": "REDACTED",
+     "query": {
+      "mport": "21000-21199,33000-33199",
+      "obfs": "salamander",
+      "obfs-password": "REDACTED",
+      "sni": "vpn.local",
+      "insecure": "1"
+     }
+    },
+    "vless": {
+     "proto": "vless",
+     "raw": "vless://REDACTED@151.241.226.201:2053?encryption=none&security=reality&sni=www.apple.com&fp=chrome&pbk=REDACTED&sid=REDACTED&type=tcp#CapVPN",
+     "scheme": "vless",
+     "host": "151.241.226.201",
+     "port": 2053,
+     "userinfo": "REDACTED",
+     "query": {
+      "encryption": "none",
+      "security": "reality",
+      "sni": "www.apple.com",
+      "fp": "chrome",
+      "pbk": "REDACTED",
+      "sid": "REDACTED",
+      "type": "tcp"
+     }
+    }
+   }
+  },
+  {
+   "server_id": "1170",
+   "server_name": "AU-1",
+   "location_id": "71",
+   "location_name": "Australia",
+   "tier": "premium",
+   "country": "AU",
+   "ip": "46.250.240.80",
+   "is_online": "0",
+   "port_open": "0",
+   "health_score": "0.000",
+   "bandwidth_mbps": "16.73",
+   "cpu_pct": "23.08",
+   "ram_pct": "5.20",
+   "last_health_at": "2026-10-28 09:28:33",
+   "protocol_type": "wireguard",
+   "protocols": {
+    "wireguard": {
+     "proto": "wireguard",
+     "raw": "wireguard://REDACTED@46.250.240.80:51821?address=%7BWG_IP_PREMIUM%7D&peer_pubkey=fBEbLIguKN5a7tp5bsJGRA+Wa3pr9ggJIJ0KkZqCqQ8%3D&dns=1.1.1.1#CapVPN",
+     "scheme": "wireguard",
+     "host": "46.250.240.80",
+     "port": 51821,
+     "userinfo": "REDACTED",
+     "query": {
+      "address": "{WG_IP_PREMIUM}",
+      "peer_pubkey": "fBEbLIguKN5a7tp5bsJGRA Wa3pr9ggJIJ0KkZqCqQ8=",
+      "dns": "1.1.1.1"
+     }
+    },
+    "hysteria2": {
+     "proto": "hysteria2",
+     "raw": "hysteria2://REDACTED@46.250.240.80:8444?mport=21000-21199%2C33000-33199&obfs=salamander&obfs-password=REDACTED&sni=vpn.local&insecure=1#CapVPN",
+     "scheme": "hysteria2",
+     "host": "46.250.240.80",
+     "port": 8444,
+     "userinfo": "REDACTED",
+     "query": {
+      "mport": "21000-21199,33000-33199",
+      "obfs": "salamander",
+      "obfs-password": "REDACTED",
+      "sni": "vpn.local",
+      "insecure": "1"
+     }
+    },
+    "vless": {
+     "proto": "vless",
+     "raw": "vless://REDACTED@46.250.240.80:2053?encryption=none&security=reality&sni=www.cloudflare.com&fp=chrome&pbk=REDACTED&sid=REDACTED&type=tcp#CapVPN",
+     "scheme": "vless",
+     "host": "46.250.240.80",
+     "port": 2053,
+     "userinfo": "REDACTED",
+     "query": {
+      "encryption": "none",
+      "security": "reality",
+      "sni": "www.cloudflare.com",
+      "fp": "chrome",
+      "pbk": "REDACTED",
+      "sid": "REDACTED",
+      "type": "tcp"
+     }
+    }
+   }
+  },
+  {
+   "server_id": "161",
+   "server_name": "Sw-1",
+   "location_id": "75",
+   "location_name": "Sweden",
+   "tier": "premium",
+   "country": null,
+   "ip": "83.147.254.160",
+   "is_online": "0",
+   "port_open": "0",
+   "health_score": "0.000",
+   "bandwidth_mbps": "0.00",
+   "cpu_pct": "0.50",
+   "ram_pct": "4.12",
+   "last_health_at": "2026-05-20 12:25:33",
+   "protocol_type": "multi",
+   "protocols": {
+    "hysteria2": {
+     "proto": "hysteria2",
+     "raw": "hysteria2://REDACTED@83.147.254.160:443?mport=20000-50000&obfs=salamander&obfs-password=REDACTED&sni=www.bing.com&insecure=1#Sweden",
+     "scheme": "hysteria2",
+     "host": "83.147.254.160",
+     "port": 443,
+     "userinfo": "REDACTED",
+     "query": {
+      "mport": "20000-50000",
+      "obfs": "salamander",
+      "obfs-password": "REDACTED",
+      "sni": "www.bing.com",
+      "insecure": "1"
+     }
+    },
+    "wireguard": {
+     "proto": "wireguard",
+     "raw": "wireguard://REDACTED@83.147.254.160:51820?publickey=dRv0XNmOmQzBuG0lvwbcxmts%2F4NUd53Pz87FvYF8dS0%3D&address=10.10.0.2%2F32&mtu=1280#Sweden",
+     "scheme": "wireguard",
+     "host": "83.147.254.160",
+     "port": 51820,
+     "userinfo": "REDACTED",
+     "query": {
+      "publickey": "dRv0XNmOmQzBuG0lvwbcxmts/4NUd53Pz87FvYF8dS0=",
+      "address": "10.10.0.2/32",
+      "mtu": "1280"
+     }
+    }
+   }
+  },
+  {
+   "server_id": "1182",
+   "server_name": "IN-1",
+   "location_id": "78",
+   "location_name": "India",
+   "tier": "premium",
+   "country": "IN",
+   "ip": "194.61.31.126",
+   "is_online": "1",
+   "port_open": "1",
+   "health_score": "76.401",
+   "bandwidth_mbps": "89.62",
+   "cpu_pct": "34.82",
+   "ram_pct": "4.06",
+   "last_health_at": "2026-10-28 21:09:03",
+   "protocol_type": "wireguard",
+   "protocols": {
+    "wireguard": {
+     "proto": "wireguard",
+     "raw": "wireguard://REDACTED@194.61.31.126:51821?address=%7BWG_IP_PREMIUM%7D&peer_pubkey=dPTdz8wlKOGBsQm4BYaXdNJ6Vnr2l4wuCP48qRVV4RY%3D&dns=1.1.1.1#CapVPN",
+     "scheme": "wireguard",
+     "host": "194.61.31.126",
+     "port": 51821,
+     "userinfo": "REDACTED",
+     "query": {
+      "address": "{WG_IP_PREMIUM}",
+      "peer_pubkey": "dPTdz8wlKOGBsQm4BYaXdNJ6Vnr2l4wuCP48qRVV4RY=",
+      "dns": "1.1.1.1"
+     }
+    },
+    "hysteria2": {
+     "proto": "hysteria2",
+     "raw": "hysteria2://REDACTED@194.61.31.126:8444?mport=21000-21199%2C33000-33199&obfs=salamander&obfs-password=REDACTED&sni=vpn.local&insecure=1#CapVPN",
+     "scheme": "hysteria2",
+     "host": "194.61.31.126",
+     "port": 8444,
+     "userinfo": "REDACTED",
+     "query": {
+      "mport": "21000-21199,33000-33199",
+      "obfs": "salamander",
+      "obfs-password": "REDACTED",
+      "sni": "vpn.local",
+      "insecure": "1"
+     }
+    },
+    "vless": {
+     "proto": "vless",
+     "raw": "vless://REDACTED@194.61.31.126:2053?encryption=none&security=reality&sni=www.apple.com&fp=chrome&pbk=REDACTED&sid=REDACTED&type=tcp#CapVPN",
+     "scheme": "vless",
+     "host": "194.61.31.126",
+     "port": 2053,
+     "userinfo": "REDACTED",
+     "query": {
+      "encryption": "none",
+      "security": "reality",
+      "sni": "www.apple.com",
+      "fp": "chrome",
+      "pbk": "REDACTED",
+      "sid": "REDACTED",
+      "type": "tcp"
+     }
+    }
+   }
+  },
+  {
+   "server_id": "1161",
+   "server_name": "FN-1",
+   "location_id": "80",
+   "location_name": "Finland 1Gbps",
+   "tier": "premium",
+   "country": "FN",
+   "ip": "95.216.27.15",
+   "is_online": "1",
+   "port_open": "1",
+   "health_score": "17.302",
+   "bandwidth_mbps": "944.92",
+   "cpu_pct": "95.10",
+   "ram_pct": "25.74",
+   "last_health_at": "2026-10-28 21:09:03",
+   "protocol_type": "wireguard",
+   "protocols": {
+    "wireguard": {
+     "proto": "wireguard",
+     "raw": "wireguard://REDACTED@95.216.27.15:51821?address=%7BWG_IP_PREMIUM%7D&peer_pubkey=ogWPcl9h+9C5eFHkdpt5RoMB4+QtGdx95cfNUcjM1VE%3D&dns=1.1.1.1#CapVPN",
+     "scheme": "wireguard",
+     "host": "95.216.27.15",
+     "port": 51821,
+     "userinfo": "REDACTED",
+     "query": {
+      "address": "{WG_IP_PREMIUM}",
+      "peer_pubkey": "ogWPcl9h 9C5eFHkdpt5RoMB4 QtGdx95cfNUcjM1VE=",
+      "dns": "1.1.1.1"
+     }
+    },
+    "hysteria2": {
+     "proto": "hysteria2",
+     "raw": "hysteria2://REDACTED@95.216.27.15:8444?mport=21000-21199%2C33000-33199&obfs=salamander&obfs-password=REDACTED&sni=vpn.local&insecure=1#CapVPN",
+     "scheme": "hysteria2",
+     "host": "95.216.27.15",
+     "port": 8444,
+     "userinfo": "REDACTED",
+     "query": {
+      "mport": "21000-21199,33000-33199",
+      "obfs": "salamander",
+      "obfs-password": "REDACTED",
+      "sni": "vpn.local",
+      "insecure": "1"
+     }
+    },
+    "vless": {
+     "proto": "vless",
+     "raw": "vless://REDACTED@95.216.27.15:2053?encryption=none&security=reality&sni=www.google.com&fp=chrome&pbk=REDACTED&sid=REDACTED&type=tcp#CapVPN",
+     "scheme": "vless",
+     "host": "95.216.27.15",
+     "port": 2053,
+     "userinfo": "REDACTED",
+     "query": {
+      "encryption": "none",
+      "security": "reality",
+      "sni": "www.google.com",
+      "fp": "chrome",
+      "pbk": "REDACTED",
+      "sid": "REDACTED",
+      "type": "tcp"
+     }
+    }
+   }
+  }
+ ],
+ "note": "凭证已脱敏。真实凭证需自行运行 tools/harvest.py 从上游获取。上游鉴权 JWT 见 docs/REVERSE_REPORT.md。"
+}
