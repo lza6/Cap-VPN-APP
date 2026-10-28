@@ -8,6 +8,8 @@
 
 ---
 
+![demo](docs/img/demo.png)
+
 ## 状态表
 
 | 环节 | 状态 | 证据 |
@@ -20,7 +22,7 @@
 | 真实握手 + 出网验证 | ✅ 完成 | GitHub Actions（US 出口）**33/50 存活**，两次运行一致 |
 | 吞吐压测 | ✅ 完成 | 29/33 成功，中位 **26.1 Mbps**，峰值 **74.6 Mbps** |
 | 目标站点可达性矩阵 | ✅ 完成 | 33 个存活端点：openai/anthropic/claude.ai/chatgpt/spotify **33/33 可达**，gemini 31/33，netflix 32/33 → `results/RESULTS.md` |
-| Demo 页 | ✅ 完成 | `demo_server.py` → `http://127.0.0.1:8971/` |
+| Demo 页 | ✅ 完成 | `demo_server.py` → `http://127.0.0.1:8971/`（Edge 无头实测截图：`docs/img/demo.png`） |
 | new-api 代理池落地 | ✅ 已备脚本 | `deploy/capvpn/` + `docs/new-api对接指南.md`（mihomo 配置已用 `mihomo -t` 校验通过） |
 | wireguard 协议 | ❌ 不可用 | URI 为 `{WG_PRIVATE_KEY}` / `{WG_IP}` 模板，客户端拿不到私钥 |
 

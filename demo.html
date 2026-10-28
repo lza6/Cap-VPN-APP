@@ -45,8 +45,9 @@
 </header>
 <main>
   <div class="note">
-    <b>网络提示：</b>本机出口（IT）到节点 IP 的 TCP 全部不可达，属本地链路限制；分布式探测（CA/NL/US 视角）显示
-    vless:2053 端口开放。真实握手验证需在可直连节点网络的环境执行（见 <span class="mono">docs/REVERSE_REPORT.md</span>）。
+    <b>结论：</b>本机（IT 出口）到节点 TCP 0/50 → 本地链路限制；GitHub Actions（Azure US）真实握手 <b>33/50 存活</b>
+    （hysteria2 20/30、vless 13/20，两轮独立运行一致），出口 IP = 节点自身 IP，吞吐中位 26.1 Mbps。
+    详见 <span class="mono">results/RESULTS.md</span> 与 <span class="mono">docs/REVERSE_REPORT.md</span>。
   </div>
 
   <div class="cards" id="cards"></div>
@@ -122,7 +123,7 @@ function card(k,v){ return `<div class="card"><div class="k">${k}</div><div clas
 
 async function load(){
   const s = await (await fetch('/api/summary')).json();
-  const b = s.bench;
+  const b = s.bench, r = s.bench_remote;
   document.getElementById('gen').textContent = '采集于 ' + s.generated_at;
   document.getElementById('cards').innerHTML = [
     card('地区数', s.locations),
@@ -131,7 +132,8 @@ async function load(){
     card('hysteria2', s.protocols.hysteria2||0),
     card('vless REALITY', s.protocols.vless||0),
     card('wireguard(模板)', s.protocols.wireguard||0),
-    card('本轮存活(本机)', b ? `${b.alive}/${b.total_unique_endpoints}` : '—'),
+    card('本机存活(IT 出口)', b ? `${b.alive}/${b.total_unique_endpoints}` : '—'),
+    card('真实存活(Actions US)', r ? `${r.alive}/${r.total_unique_endpoints}` : '—'),
   ].join('');
   const d = await (await fetch('/api/nodes')).json();
   NODES = d.nodes;

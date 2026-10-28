@@ -38,18 +38,23 @@ def summary(data: dict) -> dict:
         by_tier[n["tier"]] = by_tier.get(n["tier"], 0) + 1
         countries.add(n["country"])
         online += 1 if n["is_online"] == "1" else 0
-    bench = None
-    for name in ("bench_local_r1.json", "bench_remote_e2e.json"):
-        p = os.path.join(ROOT, name)
-        if os.path.exists(p):
-            bench = json.load(open(p, encoding="utf-8"))["summary"]
-            break
+    def _bench(*names):
+        for name in names:
+            for base in (ROOT, os.path.join(ROOT, "results")):
+                p = os.path.join(base, name)
+                if os.path.exists(p):
+                    return json.load(open(p, encoding="utf-8"))["summary"]
+        return None
+
+    bench = _bench("bench_local_r1.json")
+    bench_remote = _bench("bench_remote_e2e.json", "bench_remote_e2e_r2.json")
     return {
         "generated_at": data["generated_at"], "source": data["source"],
         "locations": len(data["locations"]), "servers": len(data["nodes"]),
         "vendor_online": online, "protocols": by_proto, "tiers": by_tier,
         "countries": sorted(c for c in countries if c),
         "bench": bench,
+        "bench_remote": bench_remote,
     }
 
 
@@ -84,9 +89,10 @@ class Handler(BaseHTTPRequestHandler):
             return self._send(200, body, "text/plain; charset=utf-8")
         if path == "/api/bench":
             for name in ("bench_local_r1.json", "bench_remote_e2e.json"):
-                p = os.path.join(ROOT, name)
-                if os.path.exists(p):
-                    return self._json(json.load(open(p, encoding="utf-8")))
+                for base in (ROOT, os.path.join(ROOT, "results")):
+                    p = os.path.join(base, name)
+                    if os.path.exists(p):
+                        return self._json(json.load(open(p, encoding="utf-8")))
             return self._json({"error": "no bench result yet"}, 404)
         return self._json({"error": "not found", "path": path}, 404)
 
